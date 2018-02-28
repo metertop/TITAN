@@ -23,8 +23,12 @@ package com.yunji.titan.utils;
  */
 public enum ContentType {
 	/* ssss */
-	APPLICATION_JSON("application/json"), APPLICATION_XML("application/xml"), TEXT_XML("text/xml"), TEXT_HTML(
-			"text/html"), APPLICATION_X_WWW_FORM_URLENCODED("application/x-www-form-urlencoded");
+	APPLICATION_JSON("application/json"),
+	APPLICATION_XML("application/xml"),
+	TEXT_XML("text/xml"),
+	TEXT_HTML("text/html"),
+	APPLICATION_X_WWW_FORM_URLENCODED("application/x-www-form-urlencoded");
+
 	public String type = null;
 
 	ContentType(String type) {

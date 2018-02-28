@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="titan-agent" />
+        <module name="titan-datacollect" />
+        <module name="titan-manager" />
+        <module name="titan-monitor" />
+        <module name="titan-task" />
+        <module name="titan-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="titan" target="1.5" />
+      <module name="titan-agent" target="1.8" />
+      <module name="titan-datacollect" target="1.8" />
+      <module name="titan-manager" target="1.8" />
+      <module name="titan-monitor" target="1.8" />
+      <module name="titan-task" target="1.8" />
+      <module name="titan-utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

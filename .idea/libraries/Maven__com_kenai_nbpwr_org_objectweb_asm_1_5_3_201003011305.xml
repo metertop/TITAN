@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kenai.nbpwr:org-objectweb-asm:1.5.3-201003011305">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-objectweb-asm/1.5.3-201003011305/org-objectweb-asm-1.5.3-201003011305.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-objectweb-asm/1.5.3-201003011305/org-objectweb-asm-1.5.3-201003011305-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-objectweb-asm/1.5.3-201003011305/org-objectweb-asm-1.5.3-201003011305-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

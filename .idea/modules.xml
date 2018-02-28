@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/titan.iml" filepath="$PROJECT_DIR$/titan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-agent/titan-agent.iml" filepath="$PROJECT_DIR$/titan-agent/titan-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-datacollect/titan-datacollect.iml" filepath="$PROJECT_DIR$/titan-datacollect/titan-datacollect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-manager/titan-manager.iml" filepath="$PROJECT_DIR$/titan-manager/titan-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-monitor/titan-monitor.iml" filepath="$PROJECT_DIR$/titan-monitor/titan-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-task/titan-task.iml" filepath="$PROJECT_DIR$/titan-task/titan-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/titan-utils/titan-utils.iml" filepath="$PROJECT_DIR$/titan-utils/titan-utils.iml" />
+    </modules>
+  </component>
+</project>
