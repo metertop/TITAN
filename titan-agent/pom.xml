@@ -22,6 +22,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
+	<!--	<finalName>titan-agent</finalName>-->
+		<!--<resources>
+			&lt;!&ndash; 控制资源文件的拷贝 &ndash;&gt;
+			<resource>
+				<directory>src/main/resources</directory>
+				<targetPath>${project.build.directory}</targetPath>
+			</resource>
+		</resources>-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -37,6 +45,78 @@
 						<extdirs>${project.basedir}/lib</extdirs>
 					</compilerArguments>
 				</configuration>
+			</plugin>
+
+			<!-- The configuration of maven-jar-plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.6</version>
+				<!-- The configuration of the plugin -->
+				<configuration>
+					<!-- Configuration of the archiver -->
+					<archive>
+
+						<!--
+                            生成的jar中，不要包含pom.xml和pom.properties这两个文件
+                        -->
+						<addMavenDescriptor>false</addMavenDescriptor>
+
+						<!-- Manifest specific configuration -->
+						<manifest>
+							<!--
+                                是否要把第三方jar放到manifest的classpath中
+                            -->
+							<addClasspath>true</addClasspath>
+							<!--
+                               生成的manifest中classpath的前缀，因为要把第三方jar放到lib目录下，所以classpath的前缀是lib/
+                           -->
+							<classpathPrefix>lib/</classpathPrefix>
+							<!--
+                                应用的main class
+                            -->
+							<mainClass>com.yunji.titan.agent.Main</mainClass>
+						</manifest>
+
+						<!-- 不设置使用classpath:xxx  报错-->
+						<manifestEntries>
+							<Class-Path>./</Class-Path>
+						</manifestEntries>
+					</archive>
+					<!--
+                        过滤掉不希望包含在jar中的文件
+                    -->
+					<excludes>
+						<exclude>*.sh</exclude>
+						<exclude>*.xml</exclude>
+						<exclude>properties/**</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+
+			<!-- The configuration of maven-assembly-plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.6</version>
+				<!-- The configuration of the plugin -->
+				<configuration>
+					<!-- not append assembly id in release file name -->
+					<appendAssemblyId>false</appendAssemblyId>
+					<!-- Specifies the configuration file of the assembly plugin -->
+					<descriptors>
+						<descriptor>src/main/resources/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

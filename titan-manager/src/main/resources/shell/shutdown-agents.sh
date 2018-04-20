@@ -4,8 +4,8 @@
 AGENT_NUM=2
 
 #所有agent机器地址
-AGENT_ADDRESS=('192.168.1.1'
-'192.168.1.2'
+AGENT_ADDRESS=('172.16.0.173'
+'172.16.0.175'
 )
 
 #停止所有机器上的agents节点

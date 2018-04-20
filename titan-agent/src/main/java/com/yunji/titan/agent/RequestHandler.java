@@ -243,6 +243,7 @@ public class RequestHandler {
 	private int getParamIndex(AgentTaskBean taskBean, String url, Map<String, Integer> paramIndex, int paramSize) {
 		synchronized (paramIndex) {
 			paramIndex.put(url, !paramIndex.containsKey(url) ? 0 : paramIndex.get(url) + 1);
+			log.warn("agent-requestHandler:获取压测参数{}, key-{}, value-{}", paramIndex.toString(), url, paramIndex.get(url));   //haoyx
 			/* 持续轮询 */
 			if (paramIndex.get(url) == paramSize) {
 				log.debug("重新开始轮询参数");

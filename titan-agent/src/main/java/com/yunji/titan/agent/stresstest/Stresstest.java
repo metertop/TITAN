@@ -101,6 +101,7 @@ public interface Stresstest {
 	 * @exception Exception
 	 * 
 	 * @return OutParamBean
+	 * Java8新特性--Interface中的default方法（接口默认方法）
 	 */
 	public default OutParamBO getResult(CloseableHttpResponse httpResponse, HttpEntity entity) {
 		OutParamBO outParamBO = new OutParamBO();

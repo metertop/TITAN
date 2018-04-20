@@ -110,7 +110,7 @@ public class RegisterAgent implements Watcher {
 				if (null != task && null != interrupted) {
 					if (interrupted) {
 						requestHandler.interruptedTask();
-					} else if (task) {
+					} else if (task) {     // busyness
 						new Thread(() -> {
 							/* 领取taskService下发的任务 */
 							Result<String> result = taskFacade.pullTask(nodePath);

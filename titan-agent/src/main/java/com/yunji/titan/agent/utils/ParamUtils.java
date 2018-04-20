@@ -109,7 +109,7 @@ public class ParamUtils {
 
 	/**
 	 * 将JSON转换为url参数
-	 * 
+	 *  eg: {'Cookie':'ticket123','testHeader':'test_321'}
 	 * @author gaoxianglong
 	 */
 	public static String jsonToUrl(String p1, String p2) {

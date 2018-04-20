@@ -127,7 +127,7 @@ public class InitMonitor {
             int count =  0;    
             while((line=in.readLine()) != null){            
                 if(++count >= 4){    
-	                  if((null != line) &&(line.startsWith("vda"))){
+	                  if((null != line) &&(line.startsWith("vda") || line.startsWith("sda"))){  // haoyx || line.startsWith("sda")
 	                	  String[] temp = line.split("\\s+"); 
 	                	  if(temp.length > 1){   
 	                		  MONITOR_MACHINE_IOPS = Double.parseDouble(temp[3]) + Double.parseDouble(temp[4]);

@@ -207,6 +207,7 @@ public class TaskServiceImpl implements TaskService {
 			boolean result = ftpUtils.downloadFile(ftpFile);
 			if (result) {
 				File localFile = new File(System.getProperty("user.home") + "/" + ftpFile.getName());
+				log.warn("ftp文件路径为{}", System.getProperty("user.home"));   //haoyx
 				if (localFile.exists()) {
 					List<String> param = new ArrayList<String>();
 					try (HSSFWorkbook book = new HSSFWorkbook(

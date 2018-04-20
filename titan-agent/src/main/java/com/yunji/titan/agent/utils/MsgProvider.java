@@ -49,7 +49,7 @@ public class MsgProvider {
 			String msgId = rocketMQDataSource.getProducer()
 					.send(new Message(rocketMQDataSource.getRocketTopic(), "*", "uploadKey", result.getBytes()))
 					.getMsgId();
-			log.info(msgId);
+			log.info("agent发送消息{}", msgId);
 		} catch (Exception e) {
 			log.error("error", e);
 		}
