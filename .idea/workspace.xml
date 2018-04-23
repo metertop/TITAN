@@ -2,71 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eff48db7-58b7-40f5-a938-04906a958f01" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.BaseDaoTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.EmailSenderTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.LinkServiceTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.MonitorDaoTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.MonitorServiceTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.ReportServiceTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.SceneServiceTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/TEST-com.yunji.titan.manager.test.BaseJunit4Test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.BaseDaoTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.EmailSenderTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.LinkServiceTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.MonitorDaoTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.MonitorServiceTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.ReportServiceTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.SceneServiceTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-manager/target/surefire-reports/com.yunji.titan.manager.test.BaseJunit4Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/surefire-reports/TEST-com.yunji.titan.test.utils.ftp.FtpTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/surefire-reports/com.yunji.titan.test.utils.ftp.FtpTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/surefire/surefire2308331350081534325tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/surefire/surefire_01399077957441384523tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/test-classes/log4j.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/pom.xml" afterPath="$PROJECT_DIR$/titan-agent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/RequestHandler.java" afterPath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/RequestHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/Stresstest.java" afterPath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/Stresstest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/MsgProvider.java" afterPath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/MsgProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/ParamUtils.java" afterPath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/ParamUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/watch/registry/RegisterAgent.java" afterPath="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/watch/registry/RegisterAgent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/resources/dubbo-context.xml" afterPath="$PROJECT_DIR$/titan-agent/src/main/resources/dubbo-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/resources/properties/agent.properties" afterPath="$PROJECT_DIR$/titan-agent/src/main/resources/properties/agent.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/src/main/resources/start.sh" afterPath="$PROJECT_DIR$/titan-agent/src/main/resources/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-agent/titan-agent.iml" afterPath="$PROJECT_DIR$/titan-agent/titan-agent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/pom.xml" afterPath="$PROJECT_DIR$/titan-datacollect/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties" afterPath="$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/src/main/resources/root-context.xml" afterPath="$PROJECT_DIR$/titan-datacollect/src/main/resources/root-context.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/dubbo-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/ftp-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/properties/agent.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-agent/target/titan-agent-2.0.0-SNAPSHOT/titan-agent-2.0.0-SNAPSHOT/zk-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/dao-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/properties/datacollect.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-datacollect/target/titan-datacollect-2.0.0-SNAPSHOT/titan-datacollect-2.0.0-SNAPSHOT/zk-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/lib/libsigar-amd64-linux.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/logs/libsigar-amd64-linux.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/properties/monitor.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-monitor/target/titan-monitor-2.0.0-SNAPSHOT/titan-monitor-2.0.0-SNAPSHOT/start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/dao-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/dubbo-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/ftp-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/properties/task.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/redis-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/root-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/shutdown.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/start.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-task/target/titan-task-2.0.0-SNAPSHOT/titan-task-2.0.0-SNAPSHOT/zk-context.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/src/main/resources/start.sh" afterPath="$PROJECT_DIR$/titan-datacollect/src/main/resources/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/src/main/resources/zk-context.xml" afterPath="$PROJECT_DIR$/titan-datacollect/src/main/resources/zk-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/titan-datacollect.iml" afterPath="$PROJECT_DIR$/titan-datacollect/titan-datacollect.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" afterPath="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OverviewController.java" afterPath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OverviewController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/shutdown-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/shutdown-agents.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/classes/properties/config.properties" afterPath="$PROJECT_DIR$/titan-manager/target/classes/properties/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/classes/shell/restart-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/target/classes/shell/restart-agents.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/classes/shell/shutdown-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/target/classes/shell/shutdown-agents.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/classes/shell/start-agents.sh" afterPath="$PROJECT_DIR$/titan-manager/target/classes/shell/start-agents.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/titan-manager/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/pom.xml" afterPath="$PROJECT_DIR$/titan-monitor/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java" afterPath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" afterPath="$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/src/main/resources/start.sh" afterPath="$PROJECT_DIR$/titan-monitor/src/main/resources/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/titan-monitor.iml" afterPath="$PROJECT_DIR$/titan-monitor/titan-monitor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/pom.xml" afterPath="$PROJECT_DIR$/titan-task/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java" afterPath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/assign/TaskServiceImpl.java" afterPath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/assign/TaskServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties" afterPath="$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/src/main/resources/start.sh" afterPath="$PROJECT_DIR$/titan-task/src/main/resources/start.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/People.java" afterPath="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/People.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/ValidatedTest.java" afterPath="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/ValidatedTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/titan-utils/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoServiceImpl.java" afterPath="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/titan-manager/target/" />
     <ignored path="$PROJECT_DIR$/titan-utils/target/" />
@@ -107,43 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java">
+      <file leaf-file-name="zk-context.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/zk-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-              <folding>
-                <element signature="e#1092#1121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="monitor.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/properties/monitor.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils/MsgProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="root-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/root-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,58 +93,91 @@
       <file leaf-file-name="task.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="855">
+              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agent.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/properties/agent.properties">
+      <file leaf-file-name="redis-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/redis-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="98" lean-forward="false" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+            <state relative-caret-position="-357">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="root-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/root-context.xml">
+      <file leaf-file-name="dao-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/dao-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+            <state relative-caret-position="-114">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RocketMqDataSource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/config/RocketMqDataSource.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="265">
+              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java">
+      <file leaf-file-name="GetAgentsHostAddress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/template/GetAgentsHostAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datacollect.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties">
+      <file leaf-file-name="AgentInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="321">
+              <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="139" column="61" lean-forward="false" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZookeeperConnManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ZookeeperConnManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+              <folding>
+                <element signature="e#2526#2527#0" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodePath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/NodePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -236,7 +210,6 @@
       <find>id=&quot;masterElection&quot;</find>
       <find>zk_address</find>
       <find>AutomaticTaskDao</find>
-      <find>getOverviewData</find>
       <find>Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registerAgent':</find>
       <find>registerAgent':</find>
       <find>registerAgent'</find>
@@ -246,10 +219,17 @@
       <find>MsgProvide</find>
       <find>iostat -d -x 5</find>
       <find>titan-monitor-topic</find>
+      <find>getAgentsHostAddress</find>
+      <find>getOverviewData</find>
+      <find>已</find>
+      <find>已用</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-manager</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -262,8 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/constraints/NotNull.class" />
-        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/dao-context.xml" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/resources/properties/monitor.properties" />
         <option value="$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/Watcher.class" />
         <option value="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/watch/registry/RegisterAgent.java" />
@@ -279,18 +257,14 @@
         <option value="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/People.java" />
         <option value="$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/validat/ValidatedTest.java" />
         <option value="$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class" />
-        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" />
         <option value="$PROJECT_DIR$/titan-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/resources/shell/shutdown-agents.sh" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" />
         <option value="$PROJECT_DIR$/titan-agent/src/main/resources/start.sh" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/resources/start.sh" />
         <option value="$PROJECT_DIR$/titan-task/src/main/resources/start.sh" />
-        <option value="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.13.RELEASE/spring-context-3.2.13.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class" />
-        <option value="$PROJECT_DIR$/titan-datacollect/src/main/resources/start.sh" />
         <option value="$PROJECT_DIR$/titan-datacollect/src/test/java/com/yunji/titan/datacollect/MasterElection.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/builders/JUnit4Builder.class" />
         <option value="$PROJECT_DIR$/titan-datacollect/src/test/java/com/yunji/titan/datacollect/Main.java" />
@@ -313,6 +287,12 @@
         <option value="$PROJECT_DIR$/titan-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/resources/assembly.xml" />
+        <option value="$PROJECT_DIR$/titan-datacollect/src/main/resources/start.sh" />
+        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh" />
+        <option value="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OverviewController.java" />
+        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh" />
+        <option value="$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java" />
       </list>
     </option>
   </component>
@@ -355,9 +335,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1370" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -543,7 +524,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,7 +538,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -583,7 +672,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -595,11 +684,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,7 +698,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -629,257 +714,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-datacollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-datacollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-datacollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -894,7 +729,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/titan-monitor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/titan-task" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -1575,7 +1410,7 @@
       <workItem from="1523616634251" duration="36581000" />
       <workItem from="1524052607098" duration="33801000" />
       <workItem from="1524193879254" duration="242000" />
-      <workItem from="1524194338691" duration="14296000" />
+      <workItem from="1524194338691" duration="26827000" />
     </task>
     <servers />
   </component>
@@ -1612,7 +1447,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217661000" />
+    <option name="totallyTimeSpent" value="230192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1624,14 +1459,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13541667" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1424196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14188164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1646,12 +1481,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.031746034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15972222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1340388" sideWeight="0.4969651" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892416" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2588055" sideWeight="0.85974497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28300455" sideWeight="0.86570245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2588055" sideWeight="0.140255" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28300455" sideWeight="0.13429752" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0017361111" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2602428" sideWeight="0.3251029" order="2" side_tool="true" content_ui="tabs" />
@@ -1680,997 +1515,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.13.RELEASE/spring-beans-3.2.13.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa3564.33951/com/yunji/titan/datacollect/Main.class" />
-    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ThreadPoolManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ZookeeperConnManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/MasterElection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7804.8667/com/yunji/titan/datacollect/MasterElection.class" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7804.49071/com/yunji/titan/datacollect/Main.class" />
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/master-context.xml" />
-    <entry file="uml://MAVEN/com.yunji:titan-manager:2.0.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.yunji:titan-manager:2.0.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="0.0" y="767.4638171515747">com.yunji:titan-manager:2.0.0-SNAPSHOT</node>
-            <node x="259.5" y="795.916666666667">com.alibaba:dubbo:jar:2.5.3</node>
-            <node x="516.0" y="841.0350674116119">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
-            <node x="526.0" y="769.0350674116119">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
-            <node x="266.5" y="1873.5761359921544">junit:junit:jar:4.8.2</node>
-            <node x="249.5" y="1433.5761359921544">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT</node>
-            <node x="496.0" y="1614.1252384914867">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/commons-net:commons-net:jar:3.5</node>
-            <node x="755.5" y="1004.4638171515747">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-client:jar:3.2.6</node>
-            <node x="999.0" y="1028.916666666667">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6</node>
-            <node x="1241.0" y="1042.166666666667">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6</node>
-            <node x="1503.0" y="980.4638171515747">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/com.alibaba:fastjson:jar:1.2.3</node>
-            <node x="1501.0" y="1052.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/io.netty:netty-all:jar:4.0.25.Final</node>
-            <node x="1502.0" y="1124.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/org.slf4j:slf4j-api:jar:1.7.5</node>
-            <node x="757.5" y="1076.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-store:jar:3.2.6</node>
-            <node x="483.5" y="1085.5795863175736">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6</node>
-            <node x="754.0" y="1148.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6</node>
-            <node x="1020.5" y="1233.7138171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-cli:commons-cli:jar:1.2</node>
-            <node x="1021.5" y="1161.7138171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-io:commons-io:jar:2.4</node>
-            <node x="517.0" y="1407.0761359921546">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba:fastjson:jar:1.2.5</node>
-            <node x="517.0" y="913.0350674116119">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1</node>
-            <node x="773.5" y="879.4638171515747">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/org.apache.zookeeper:zookeeper:jar:3.3.3</node>
-            <node x="792.0" y="951.4638171515747">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14</node>
-            <node x="1015.0" y="1532.3261359921544">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE</node>
-            <node x="1247.5" y="1494.5761359921544">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE/org.springframework:spring-expression:jar:3.2.13.RELEASE</node>
-            <node x="1685.0" y="1482.557971014493">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE</node>
-            <node x="1874.0" y="1482.557971014493">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="1485.0" y="1594.9913043478264">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE</node>
-            <node x="1025.5" y="1857.0246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE</node>
-            <node x="1277.0" y="1857.0246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE/org.springframework:spring-tx:jar:3.2.13.RELEASE</node>
-            <node x="1270.0" y="1365.1594693254879">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE</node>
-            <node x="1490.0" y="1338.6594693254879">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="1493.0" y="1260.2138171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-test:jar:3.2.13.RELEASE</node>
-            <node x="731.0" y="1640.6252384914867">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE</node>
-            <node x="771.0" y="1441.5761359921544">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE</node>
-            <node x="491.5" y="1489.1252384914867">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE</node>
-            <node x="507.5" y="2025.4928026588211">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
-            <node x="782.0" y="1883.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.6.1</node>
-            <node x="767.5" y="1955.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
-            <node x="792.0" y="2027.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
-            <node x="794.5" y="2099.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
-            <node x="1048.5" y="2099.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94/junit:junit:jar:3.8.1</node>
-            <node x="792.0" y="2171.5246376811597">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
-            <node x="782.0" y="1712.6252384914867">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.12</node>
-            <node x="501.5" y="1714.107971014493">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:jcl-over-slf4j:jar:1.7.12</node>
-            <node x="501.5" y="1786.107971014493">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12</node>
-            <node x="792.0" y="1794.107971014493">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12/log4j:log4j:jar:1.2.17</node>
-            <node x="526.0" y="1561.1252384914867">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/log4j:log4j:jar:1.2.15</node>
-            <node x="527.5" y="1222.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
-            <node x="753.5" y="1222.4638171515749">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
-            <node x="496.0" y="1335.0761359921544">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.8.9</node>
-            <node x="264.0" y="579.916666666667">com.alibaba:druid:jar:1.0.15</node>
-            <node x="515.0" y="553.0350674116119">com.alibaba:druid:jar:1.0.15/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="526.5" y="625.0350674116119">com.alibaba:druid:jar:1.0.15/com.alibaba:tools:jar:1.8.0</node>
-            <node x="239.5" y="0.0">commons-io:commons-io:jar:2.5</node>
-            <node x="211.5" y="697.0350674116119">commons-fileupload:commons-fileupload:jar:1.3.2</node>
-            <node x="500.5" y="697.0350674116119">commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2</node>
-            <node x="227.0" y="1729.5761359921544">org.apache.commons:commons-lang3:jar:3.5</node>
-            <node x="488.0" y="481.03506741161186">org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-            <node x="215.5" y="470.21381715157486">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-            <node x="500.0" y="2169.4928026588213">com.fasterxml.jackson.core:jackson-core:jar:2.8.9</node>
-            <node x="223.0" y="2105.4928026588213">com.fasterxml.jackson.core:jackson-databind:jar:2.8.9</node>
-            <node x="474.0" y="2097.4928026588213">com.fasterxml.jackson.core:jackson-databind:jar:2.8.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="209.0" y="1657.5761359921544">mysql:mysql-connector-java:jar:5.1.39</node>
-            <node x="267.5" y="193.03506741161186">javax.mail:mail:jar:1.4.7</node>
-            <node x="510.0" y="193.03506741161186">javax.mail:mail:jar:1.4.7/javax.activation:activation:jar:1.1</node>
-            <node x="271.0" y="72.0">org.apache.poi:poi:jar:3.15</node>
-            <node x="487.0" y="49.03506741161186">org.apache.poi:poi:jar:3.15/commons-codec:commons-codec:jar:1.10</node>
-            <node x="467.0" y="121.03506741161186">org.apache.poi:poi:jar:3.15/org.apache.commons:commons-collections4:jar:4.1</node>
-            <node x="228.5" y="1801.5761359921544">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="217.0" y="330.16291965090693">org.hibernate:hibernate-validator:jar:5.4.1.Final</node>
-            <node x="496.0" y="265.03506741161186">org.hibernate:hibernate-validator:jar:5.4.1.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="496.5" y="409.03506741161186">org.hibernate:hibernate-validator:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="510.5" y="337.03506741161186">org.hibernate:hibernate-validator:jar:5.4.1.Final/com.fasterxml:classmate:jar:1.3.1</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2">
-              <point x="31.5" y="-0.0" />
-              <point x="-71.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="94.0" y="-0.0" />
-              <point x="999.0" y="1654.0761359921544" />
-              <point x="1405.0" y="1654.0761359921544" />
-              <point x="-60.0" y="2.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-test:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="52.0" y="-0.0" />
-              <point x="-54.5" y="-14.54545454545455" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-client:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6">
-              <point x="69.5" y="-0.0" />
-              <point x="919.0" y="1020.4638171515747" />
-              <point x="-81.0" y="-4.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="60.0" y="-0.0" />
-              <point x="-54.5" y="5.81818181818182" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.39">
-              <point x="64.5" y="5.0" />
-              <point x="-89.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE/org.springframework:spring-tx:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="46.0" y="-8.0" />
-              <point x="1405.0" y="1865.0246376811597" />
-              <point x="-60.0" y="14.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/log4j:log4j:jar:1.2.15">
-              <point x="48.5" y="2.7826086956521685" />
-              <point x="387.0" y="1452.3587446878066" />
-              <point x="467.0" y="1577.1252384914867" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13">
-              <point x="64.5" y="-7.0" />
-              <point x="-82.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/org.slf4j:slf4j-api:jar:1.7.5">
-              <point x="82.0" y="10.666666666666664" />
-              <point x="1485.0" y="1140.4638171515749" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-validator:jar:5.4.1.Final" target="org.hibernate:hibernate-validator:jar:5.4.1.Final/com.fasterxml:classmate:jar:1.3.1">
-              <point x="81.0" y="-1.7763568394002505E-15" />
-              <point x="467.0" y="353.03506741161186" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="53.0" y="-10.666666666666666" />
-              <point x="1405.0" y="1370.4928026588211" />
-              <point x="-55.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.8.9">
-              <point x="64.5" y="15.0" />
-              <point x="209.0" y="2193.4928026588213" />
-              <point x="-59.0" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12">
-              <point x="48.5" y="11.130434782608685" />
-              <point x="387.0" y="1460.7065707747631" />
-              <point x="467.0" y="1802.107971014493" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:druid:jar:1.0.15" target="com.alibaba:druid:jar:1.0.15/com.alibaba:tools:jar:1.8.0">
-              <point x="34.0" y="8.0" />
-              <point x="387.0" y="603.916666666667" />
-              <point x="467.0" y="641.0350674116119" />
-              <point x="-32.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT">
-              <point x="64.5" y="3.0" />
-              <point x="209.0" y="1449.5761359921544" />
-              <point x="-48.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE">
-              <point x="67.5" y="-12.8" />
-              <point x="651.0" y="1492.3252384914867" />
-              <point x="731.0" y="1465.5761359921544" />
-              <point x="-54.0" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.6.1">
-              <point x="51.5" y="-12.8" />
-              <point x="651.0" y="2028.6928026588212" />
-              <point x="731.0" y="1899.5246376811597" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="67.5" y="12.800000000000011" />
-              <point x="651.0" y="1517.9252384914867" />
-              <point x="731.0" y="1575.8261359921544" />
-              <point x="1405.0" y="1575.8261359921544" />
-              <point x="-60.0" y="-2.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE">
-              <point x="48.5" y="4.173913043478251" />
-              <point x="387.0" y="1453.7500490356329" />
-              <point x="467.0" y="1603.6252384914867" />
-              <point x="919.0" y="1603.6252384914867" />
-              <point x="999.0" y="1552.3261359921544" />
-              <point x="-65.0" y="4.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6">
-              <point x="48.5" y="-11.130434782608695" />
-              <point x="387.0" y="1438.4457012095459" />
-              <point x="467.0" y="1101.5795863175736" />
-              <point x="-75.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="48.5" y="12.521739130434767" />
-              <point x="387.0" y="1462.0978751225894" />
-              <point x="467.0" y="1836.607971014493" />
-              <point x="1405.0" y="1836.607971014493" />
-              <point x="-60.0" y="6.0" />
-            </edge>
-            <edge source="javax.mail:mail:jar:1.4.7" target="javax.mail:mail:jar:1.4.7/javax.activation:activation:jar:1.1">
-              <point x="30.5" y="-0.0" />
-              <point x="-49.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="junit:junit:jar:4.8.2">
-              <point x="64.5" y="11.0" />
-              <point x="209.0" y="1889.5761359921544" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-validator:jar:5.4.1.Final" target="org.hibernate:hibernate-validator:jar:5.4.1.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="81.0" y="10.666666666666664" />
-              <point x="467.0" y="425.03506741161186" />
-              <point x="-62.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="54.0" y="-4.0" />
-              <point x="1605.0" y="1453.5761359921544" />
-              <point x="-54.5" y="-5.818181818181813" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="53.0" y="-0.0" />
-              <point x="1605.0" y="1381.1594693254879" />
-              <point x="-54.5" y="-8.72727272727272" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE/commons-logging:commons-logging:jar:1.1.3">
-              <point x="54.5" y="-0.0" />
-              <point x="-78.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE">
-              <point x="48.5" y="13.91304347826086" />
-              <point x="387.0" y="1463.4891794704154" />
-              <point x="467.0" y="1873.0246376811597" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE">
-              <point x="54.0" y="-12.0" />
-              <point x="919.0" y="1445.5761359921544" />
-              <point x="999.0" y="1381.1594693254879" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.9" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0">
-              <point x="75.0" y="-8.0" />
-              <point x="-85.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="65.0" y="4.0" />
-              <point x="1605.0" y="1552.3261359921544" />
-              <point x="-54.5" y="2.9090909090909065" />
-            </edge>
-            <edge source="org.hibernate:hibernate-validator:jar:5.4.1.Final" target="org.hibernate:hibernate-validator:jar:5.4.1.Final/javax.validation:validation-api:jar:1.1.0.Final">
-              <point x="81.0" y="-10.666666666666666" />
-              <point x="467.0" y="281.03506741161186" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final">
-              <point x="38.5" y="-8.0" />
-              <point x="387.0" y="803.916666666667" />
-              <point x="467.0" y="785.0350674116119" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="commons-fileupload:commons-fileupload:jar:1.3.2" target="commons-fileupload:commons-fileupload:jar:1.3.2/commons-io:commons-io:jar:2.2">
-              <point x="86.5" y="-0.0" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE">
-              <point x="48.5" y="6.956521739130423" />
-              <point x="387.0" y="1456.5326577312849" />
-              <point x="467.0" y="1656.6252384914867" />
-              <point x="-94.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/commons-net:commons-net:jar:3.5">
-              <point x="48.5" y="5.565217391304341" />
-              <point x="387.0" y="1455.1413533834589" />
-              <point x="467.0" y="1630.1252384914867" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:druid:jar:1.0.15" target="com.alibaba:druid:jar:1.0.15/com.alibaba:jconsole:jar:1.8.0">
-              <point x="34.0" y="-8.0" />
-              <point x="387.0" y="587.916666666667" />
-              <point x="467.0" y="569.0350674116119" />
-              <point x="-44.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16">
-              <point x="51.5" y="-0.0" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="64.5" y="9.0" />
-              <point x="209.0" y="1817.5761359921544" />
-              <point x="-69.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/com.alibaba:fastjson:jar:1.2.3">
-              <point x="82.0" y="-10.666666666666666" />
-              <point x="1485.0" y="996.4638171515747" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:jcl-over-slf4j:jar:1.7.12" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.12">
-              <point x="57.5" y="-0.0" />
-              <point x="-43.0" y="1.7763568394002505E-15" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94">
-              <point x="51.5" y="6.399999999999999" />
-              <point x="651.0" y="2047.892802658821" />
-              <point x="731.0" y="2115.5246376811597" />
-              <point x="-30.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="org.apache.poi:poi:jar:3.15">
-              <point x="64.5" y="-13.0" />
-              <point x="209.0" y="88.0" />
-              <point x="-27.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.8.9">
-              <point x="64.5" y="13.0" />
-              <point x="209.0" y="2121.4928026588213" />
-              <point x="-75.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-io:commons-io:jar:2.4">
-              <point x="71.0" y="4.0" />
-              <point x="919.0" y="1168.4638171515749" />
-              <point x="999.0" y="1177.7138171515749" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE/org.springframework:spring-expression:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="75.5" y="-0.0" />
-              <point x="1605.0" y="1510.5761359921544" />
-              <point x="-54.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="48.5" y="-5.565217391304344" />
-              <point x="387.0" y="1444.0109186008501" />
-              <point x="467.0" y="1302.7138171515749" />
-              <point x="1605.0" y="1302.7138171515749" />
-              <point x="-54.5" y="-11.636363636363626" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-store:jar:3.2.6">
-              <point x="75.5" y="-1.7763568394002505E-15" />
-              <point x="651.0" y="1101.5795863175736" />
-              <point x="731.0" y="1084.4638171515749" />
-              <point x="-67.5" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-              <point x="64.5" y="-5.0" />
-              <point x="209.0" y="512.7138171515749" />
-              <point x="387.0" y="512.7138171515749" />
-              <point x="467.0" y="505.03506741161186" />
-              <point x="-71.0" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="54.5" y="10.666666666666629" />
-              <point x="1161.0" y="1883.6913043478262" />
-              <point x="1241.0" y="1899.5246376811597" />
-              <point x="1605.0" y="1899.5246376811597" />
-              <point x="-54.5" y="14.545454545454561" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE/org.springframework:spring-expression:jar:3.2.13.RELEASE">
-              <point x="65.0" y="-4.0" />
-              <point x="1161.0" y="1544.3261359921544" />
-              <point x="-75.5" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:jcl-over-slf4j:jar:1.7.12">
-              <point x="48.5" y="9.739130434782599" />
-              <point x="387.0" y="1459.3152664269371" />
-              <point x="467.0" y="1730.107971014493" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.8.9">
-              <point x="48.5" y="-2.7826086956521756" />
-              <point x="387.0" y="1446.7935272965024" />
-              <point x="467.0" y="1351.0761359921544" />
-              <point x="-63.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.12">
-              <point x="48.5" y="8.347826086956516" />
-              <point x="387.0" y="1457.923962079111" />
-              <point x="467.0" y="1681.553623188406" />
-              <point x="651.0" y="1681.553623188406" />
-              <point x="731.0" y="1717.95857182482" />
-              <point x="-43.0" y="-10.666666666666686" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE">
-              <point x="48.5" y="1.3913043478260825" />
-              <point x="387.0" y="1450.9674403399806" />
-              <point x="467.0" y="1505.1252384914867" />
-              <point x="-67.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE">
-              <point x="48.5" y="-0.0" />
-              <point x="-54.0" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
-              <point x="64.5" y="1.0" />
-              <point x="209.0" y="811.916666666667" />
-              <point x="-38.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.12">
-              <point x="57.5" y="-8.0" />
-              <point x="651.0" y="1794.107971014493" />
-              <point x="731.0" y="1739.2919051581534" />
-              <point x="-43.0" y="10.666666666666666" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-client:jar:3.2.6">
-              <point x="48.5" y="-12.521739130434781" />
-              <point x="387.0" y="1437.0543968617196" />
-              <point x="467.0" y="1012.4638171515747" />
-              <point x="-69.5" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="53.0" y="10.666666666666664" />
-              <point x="1405.0" y="1391.8261359921546" />
-              <point x="-60.0" y="-14.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-test:jar:3.2.13.RELEASE">
-              <point x="48.5" y="-6.956521739130437" />
-              <point x="387.0" y="1442.619614253024" />
-              <point x="467.0" y="1276.2138171515749" />
-              <point x="-52.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.3.2">
-              <point x="64.5" y="-1.0" />
-              <point x="-86.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6">
-              <point x="75.5" y="10.666666666666664" />
-              <point x="651.0" y="1112.2462529842403" />
-              <point x="731.0" y="1164.4638171515749" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/io.netty:netty-all:jar:4.0.25.Final">
-              <point x="82.0" y="-1.7763568394002505E-15" />
-              <point x="1485.0" y="1068.4638171515749" />
-              <point x="-44.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="94.0" y="10.666666666666686" />
-              <point x="999.0" y="1697.0140529188582" />
-              <point x="1605.0" y="1697.0140529188582" />
-              <point x="-54.5" y="8.72727272727272" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6">
-              <point x="71.0" y="-4.0" />
-              <point x="919.0" y="1160.4638171515749" />
-              <point x="999.0" y="1145.7138171515749" />
-              <point x="1161.0" y="1145.7138171515749" />
-              <point x="-82.0" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6">
-              <point x="81.0" y="-0.0" />
-              <point x="-82.0" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="65.0" y="12.0" />
-              <point x="1161.0" y="1560.3261359921544" />
-              <point x="1241.0" y="1571.8261359921544" />
-              <point x="1405.0" y="1571.8261359921544" />
-              <point x="-60.0" y="-6.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.7">
-              <point x="64.5" y="-11.0" />
-              <point x="209.0" y="209.03506741161186" />
-              <point x="-30.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-client:jar:3.2.6">
-              <point x="75.5" y="-10.666666666666666" />
-              <point x="651.0" y="1090.912919650907" />
-              <point x="731.0" y="1028.4638171515749" />
-              <point x="-69.5" y="8.0" />
-            </edge>
-            <edge source="org.apache.poi:poi:jar:3.15" target="org.apache.poi:poi:jar:3.15/org.apache.commons:commons-collections4:jar:4.1">
-              <point x="27.0" y="8.0" />
-              <point x="387.0" y="96.0" />
-              <point x="-92.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="com.alibaba:druid:jar:1.0.15">
-              <point x="64.5" y="-3.0" />
-              <point x="209.0" y="595.916666666667" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12/log4j:log4j:jar:1.2.17">
-              <point x="57.5" y="8.0" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="org.hibernate:hibernate-validator:jar:5.4.1.Final">
-              <point x="64.5" y="-9.0" />
-              <point x="-81.0" y="-0.0" />
-            </edge>
-            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.8.9" target="com.fasterxml.jackson.core:jackson-core:jar:2.8.9">
-              <point x="75.0" y="8.0" />
-              <point x="387.0" y="2129.4928026588213" />
-              <point x="467.0" y="2177.4928026588213" />
-              <point x="-59.0" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="54.5" y="-10.666666666666686" />
-              <point x="1161.0" y="1862.357971014493" />
-              <point x="1241.0" y="1846.5246376811597" />
-              <point x="1405.0" y="1846.5246376811597" />
-              <point x="-60.0" y="10.0" />
-            </edge>
-            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13" target="org.codehaus.jackson:jackson-core-asl:jar:1.9.13">
-              <point x="82.5" y="-0.0" />
-              <point x="-71.0" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1">
-              <point x="48.5" y="-15.304347826086957" />
-              <point x="387.0" y="1434.2717881660676" />
-              <point x="467.0" y="929.0350674116119" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba:fastjson:jar:1.2.5">
-              <point x="48.5" y="-1.3913043478260896" />
-              <point x="387.0" y="1448.1848316443284" />
-              <point x="467.0" y="1423.0761359921546" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA">
-              <point x="38.5" y="8.0" />
-              <point x="387.0" y="819.916666666667" />
-              <point x="467.0" y="857.0350674116119" />
-              <point x="-43.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6">
-              <point x="48.5" y="-13.913043478260875" />
-              <point x="387.0" y="1435.6630925138936" />
-              <point x="467.0" y="993.9638171515747" />
-              <point x="919.0" y="993.9638171515747" />
-              <point x="-81.0" y="-12.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE">
-              <point x="54.0" y="4.0" />
-              <point x="1405.0" y="1461.5761359921544" />
-              <point x="-60.0" y="-10.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="commons-io:commons-io:jar:2.5">
-              <point x="64.5" y="-15.0" />
-              <point x="209.0" y="16.0" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/org.apache.zookeeper:zookeeper:jar:3.3.3">
-              <point x="42.0" y="-8.0" />
-              <point x="651.0" y="921.0350674116119" />
-              <point x="731.0" y="895.4638171515747" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-store:jar:3.2.6">
-              <point x="48.5" y="-9.73913043478261" />
-              <point x="387.0" y="1439.8370055573719" />
-              <point x="467.0" y="1136.5350674116119" />
-              <point x="651.0" y="1136.5350674116119" />
-              <point x="731.0" y="1100.4638171515749" />
-              <point x="-67.5" y="8.0" />
-            </edge>
-            <edge source="com.yunji:titan-manager:2.0.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.5">
-              <point x="64.5" y="7.0" />
-              <point x="209.0" y="1745.5761359921544" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94/junit:junit:jar:3.8.1">
-              <point x="30.5" y="-0.0" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE">
-              <point x="67.5" y="6.400000000000006" />
-              <point x="651.0" y="1511.5252384914868" />
-              <point x="731.0" y="1544.3261359921544" />
-              <point x="-65.0" y="-4.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE/org.springframework:spring-tx:jar:3.2.13.RELEASE">
-              <point x="54.5" y="-1.7763568394002505E-15" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14">
-              <point x="42.0" y="8.0" />
-              <point x="651.0" y="937.0350674116119" />
-              <point x="731.0" y="967.4638171515747" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE/org.springframework:spring-expression:jar:3.2.13.RELEASE">
-              <point x="67.5" y="-0.0" />
-              <point x="731.0" y="1502.5761359921544" />
-              <point x="-75.5" y="-8.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6">
-              <point x="48.5" y="15.304347826086943" />
-              <point x="387.0" y="1464.8804838182414" />
-              <point x="467.0" y="2041.4928026588211" />
-              <point x="-51.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="67.5" y="-6.400000000000006" />
-              <point x="651.0" y="1498.7252384914866" />
-              <point x="731.0" y="1484.0761359921544" />
-              <point x="1605.0" y="1484.0761359921544" />
-              <point x="-54.5" y="-2.9090909090909065" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0">
-              <point x="48.5" y="-8.347826086956523" />
-              <point x="387.0" y="1441.2283099051979" />
-              <point x="467.0" y="1238.4638171515749" />
-              <point x="-31.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE">
-              <point x="94.0" y="-10.666666666666666" />
-              <point x="999.0" y="1560.3261359921544" />
-              <point x="-65.0" y="12.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6">
-              <point x="71.0" y="-12.0" />
-              <point x="919.0" y="1152.4638171515749" />
-              <point x="-81.0" y="12.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.6.1">
-              <point x="51.5" y="-6.4" />
-              <point x="651.0" y="2035.0928026588213" />
-              <point x="731.0" y="1971.5246376811597" />
-              <point x="-57.5" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE">
-              <point x="54.0" y="12.0" />
-              <point x="919.0" y="1469.5761359921544" />
-              <point x="999.0" y="1536.3261359921544" />
-              <point x="-65.0" y="-12.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE">
-              <point x="65.0" y="-12.0" />
-              <point x="1161.0" y="1536.3261359921544" />
-              <point x="1241.0" y="1391.8261359921546" />
-              <point x="-53.0" y="10.666666666666666" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-store:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6">
-              <point x="67.5" y="-0.0" />
-              <point x="919.0" y="1092.4638171515749" />
-              <point x="-81.0" y="4.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE">
-              <point x="48.5" y="-4.173913043478265" />
-              <point x="387.0" y="1445.4022229486761" />
-              <point x="467.0" y="1324.5761359921544" />
-              <point x="1161.0" y="1324.5761359921544" />
-              <point x="1241.0" y="1370.4928026588211" />
-              <point x="-53.0" y="-10.666666666666664" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE/org.springframework:spring-tx:jar:3.2.13.RELEASE" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE">
-              <point x="46.0" y="8.0" />
-              <point x="1605.0" y="1881.0246376811597" />
-              <point x="-54.5" y="11.636363636363626" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-cli:commons-cli:jar:1.2">
-              <point x="71.0" y="12.0" />
-              <point x="919.0" y="1176.4638171515749" />
-              <point x="999.0" y="1249.7138171515749" />
-              <point x="-59.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.poi:poi:jar:3.15" target="org.apache.poi:poi:jar:3.15/commons-codec:commons-codec:jar:1.10">
-              <point x="27.0" y="-8.0" />
-              <point x="387.0" y="80.0" />
-              <point x="467.0" y="65.03506741161186" />
-              <point x="-72.0" y="-0.0" />
-            </edge>
-            <edge source="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6" target="com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final">
-              <point x="51.5" y="12.799999999999997" />
-              <point x="651.0" y="2054.292802658821" />
-              <point x="731.0" y="2187.5246376811597" />
-              <point x="-33.0" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="27.0" />
-          <SelectedNodes>
-            <node>com.yunji:titan-manager:2.0.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.yunji:titan-datacollect:2.0.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.yunji:titan-datacollect:2.0.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.yunji:titan-datacollect:2.0.0-SNAPSHOT</node>
-            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.5</node>
-            <node x="" y="">com.kenai.nbpwr:net-sf-cglib:jar:2.1.3-201003011305</node>
-            <node x="" y="">com.kenai.nbpwr:net-sf-cglib:jar:2.1.3-201003011305/cglib:cglib:jar:2.1_3</node>
-            <node x="" y="">com.kenai.nbpwr:net-sf-cglib:jar:2.1.3-201003011305/cglib:cglib:jar:2.1_3/asm:asm:jar:1.5.3</node>
-            <node x="" y="">com.kenai.nbpwr:net-sf-cglib:jar:2.1.3-201003011305/com.kenai.nbpwr:org-objectweb-asm:jar:1.5.3-201003011305</node>
-            <node x="" y="">com.kenai.nbpwr:net-sf-cglib:jar:2.1.3-201003011305/com.kenai.nbpwr:org-objectweb-asm:jar:1.5.3-201003011305/asm:asm-attrs:jar:1.5.3</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.15</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.15/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.0.15/com.alibaba:tools:jar:1.8.0</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.39</node>
-            <node x="" y="">junit:junit:jar:4.8.2</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/commons-net:commons-net:jar:3.5</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-client:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/com.alibaba:fastjson:jar:1.2.3</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/io.netty:netty-all:jar:4.0.25.Final</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-common:jar:3.2.6/com.alibaba.rocketmq:rocketmq-remoting:jar:3.2.6/org.slf4j:slf4j-api:jar:1.7.5</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-store:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-cli:commons-cli:jar:1.2</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba.rocketmq:rocketmq-filtersrv:jar:3.2.6/com.alibaba.rocketmq:rocketmq-srvutil:jar:3.2.6/commons-io:commons-io:jar:2.4</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.alibaba:fastjson:jar:1.2.5</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/org.apache.zookeeper:zookeeper:jar:3.3.3</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/com.github.sgroschupf:zkclient:jar:0.1/log4j:log4j:jar:1.2.14</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context:jar:3.2.13.RELEASE/org.springframework:spring-expression:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-core:jar:3.2.13.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-beans:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-jdbc:jar:3.2.13.RELEASE/org.springframework:spring-tx:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-aop:jar:3.2.13.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-test:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-context-support:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-web:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.springframework:spring-webmvc:jar:3.2.13.RELEASE</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.6.1</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94/junit:junit:jar:3.8.1</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.12</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:jcl-over-slf4j:jar:1.7.12</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.12/log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/log4j:log4j:jar:1.2.15</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
-            <node x="" y="">com.yunji:titan-utils:jar:2.0.0-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.8.9</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.2841463414634146" x="1013.0" y="810.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1453#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-            <element signature="e#1088#1089#0" expanded="false" />
-            <element signature="e#1101#1102#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/dao/AutomaticTaskDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/task/facade/TaskFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/shell/shutdown-agents.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OverviewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="100" column="80" lean-forward="false" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/assembly.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/assembly.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/ftp-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/watch/registry/RegisterAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/dao-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/root-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/zk-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/zk-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/dubbo-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="92" column="31" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="105" column="62" lean-forward="false" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/assembly.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1138">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/titan-datacollect/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -2727,22 +1571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/properties/monitor.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils/MsgProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -2751,28 +1579,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java">
+    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/root-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding>
-            <element signature="e#1092#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/root-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="284">
+          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties">
+    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/config/RocketMqDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="325">
+          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -2785,18 +1611,325 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/root-context.xml">
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/properties/monitor.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/config/RocketMqDataSource.java">
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/resources/root-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="317">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="366" lean-forward="true" selection-start-line="4" selection-start-column="313" selection-end-line="4" selection-end-column="366" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/resources/shutdown.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OperateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/ftp-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/bean/bo/AgentInfoBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/shell/restart-agents.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/shell/start-agents.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/bo/OverviewResultBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/task/facade/TaskFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/overview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="283" column="50" lean-forward="true" selection-start-line="283" selection-start-column="50" selection-end-line="283" selection-end-column="50" />
+          <folding>
+            <marker date="1522751924325" expanded="true" signature="5516:5522" ph="&amp;nbsp;" />
+            <marker date="1522751924325" expanded="true" signature="5535:5567" ph="..." />
+            <marker date="1522751924325" expanded="true" signature="5595:5601" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/ftp-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/dubbo-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/dao-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-796">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/redis-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/springmvc-root.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1203">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/zk-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OverviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="100" column="77" lean-forward="false" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/task/facade/TaskFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/dubbo-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/template/ResultTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/facade/TaskFacadeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/template/GetAgentsHostAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/NodePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ZookeeperConnManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="e#2526#2527#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/info/AgentInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="139" column="61" lean-forward="false" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/dao-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/redis-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/resources/zk-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2914,7 +2047,7 @@
     </states>
   </component>
   <component name="mavenExecuteGoalHistory">
-    <option value="D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-monitor" />
+    <option value="D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-task" />
     <option value="clean  package  -Dmaven.test.skip=true" />
     <option value="clean  install -Dmaven.test.skip=true" />
     <option value="clean  package -Dmaven.test.skip=true" />

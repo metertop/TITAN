@@ -38,7 +38,7 @@ public class Main {
 
 	@SuppressWarnings("resource")
 	private void init() {
-		new ClassPathXmlApplicationContext("classpath*:*-context.xml");
+		new ClassPathXmlApplicationContext("classpath:*-context.xml");
 		log.info("titan-task启动成功...");
 		try {
 			synchronized (this) {

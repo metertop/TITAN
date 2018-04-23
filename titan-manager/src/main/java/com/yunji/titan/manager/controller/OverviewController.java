@@ -99,6 +99,7 @@ public class OverviewController {
 		List<String> availableNodesIPList = new ArrayList<String>();
 		List<String> usedNodesIPList = new ArrayList<String>();
 		com.yunji.titan.utils.Result<String> result = taskFacade.getAgentsHostAddress();
+		logger.info("titan-manager:-->获取getOverviewData-->{}",result.toString());
 		if(result.isSuccess()) {
 			AgentInfoBO agentInfoBO = JSON.parseObject(result.getData(), AgentInfoBO.class);
 			if(null != agentInfoBO.getFreeAgents()) {

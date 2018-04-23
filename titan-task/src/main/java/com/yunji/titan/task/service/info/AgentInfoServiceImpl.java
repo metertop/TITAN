@@ -163,6 +163,7 @@ public class AgentInfoServiceImpl implements AgentInfoService {
 			}
 		});
 		agentInfo = JSON.toJSONString(agentInfoBO);
+		log.info("---task获取agentInfo->{}", agentInfo);
 		return agentInfo;
 	}
 

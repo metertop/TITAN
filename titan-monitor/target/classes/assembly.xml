@@ -32,6 +32,7 @@
                 <exclude>*.xml</exclude>
                 <exclude>*.sh</exclude>
                 <exclude>properties/**</exclude>
+                <exclude>*.so</exclude>
             </excludes>
         </fileSet>
         <fileSet>

@@ -24,6 +24,7 @@
 
     <fileSets>
         <!-- 把项目相关的说明文件，打包进zip文件的根目录 -->
+        <!--此处创建logs文件，为的是启动时候Log日志存在此处-->
         <fileSet>
             <directory>${project.basedir}/src/main/resources</directory>
             <outputDirectory>/logs</outputDirectory>
@@ -49,7 +50,7 @@
             <directory>${project.basedir}/src/main/resources</directory>
             <outputDirectory>/</outputDirectory>
             <lineEnding>unix</lineEnding>
-            <fileMode>0755</fileMode>
+            <fileMode>0777</fileMode>
             <includes>
                 <include>*.sh</include>
             </includes>
