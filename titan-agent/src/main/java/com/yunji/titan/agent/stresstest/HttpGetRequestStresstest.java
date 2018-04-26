@@ -53,6 +53,13 @@ public class HttpGetRequestStresstest extends BaseStresstestAdapter {
 	private AbstractExpression paramExpression;
 	private Logger log = LoggerFactory.getLogger(HttpGetRequestStresstest.class);
 
+
+	@Override
+	public OutParamBO runStresstest(String url, String outParam, String param, ContentType contentType,
+									String charset) {
+		return runGetStresstest(url, outParam, param, contentType, charset);
+	}
+
 	@Override
 	public OutParamBO runGetStresstest(String url, String outParam, String param, ContentType contentType,
 			String charset) {
@@ -66,23 +73,32 @@ public class HttpGetRequestStresstest extends BaseStresstestAdapter {
 			context.setParams(param);
 			param = paramExpression.get(context);
 			String header = headerExpression.get(context);
+			log.info("接口请求header->{}, param->{}", header, param);
+
 			/* 将上一个接口的出参作为下一个接口的入参拼接 */
 			if (!StringUtils.isEmpty(outParam)) {
 				String value = ParamUtils.jsonToUrl(param, outParam);
 				/* 动参合并操作 */
 				param = StringUtils.isEmpty(value) ? param : value;
 			}
+			log.info("链路测试，将上个接口的返回的参数作为下个接口的入参拼接后，请求为->{}", param);
+
 			try {
 				httpClient = httpConnectionManager.getHttpClient();
 				if (null != httpClient) {
 					HttpGet request = new HttpGet(
 							com.yunji.titan.utils.UrlEncoder.encode(null != param ? url + param : url));
+					log.info("get请求串为->{}", (null != param ? url + param : url));
+
 					/* 设置请求头 */
 					ParamUtils.setHeader(request, header, contentType, charset);
 					httpResponse = httpClient.execute(request);
 					entity = httpResponse.getEntity();
+
+
 					/* 获取压测执行结果 */
 					outParamBO = super.getResult(httpResponse, entity);
+					log.info("get请求返回结果为{}：", outParamBO);
 				}
 			} catch (Exception e) {
 				// ...

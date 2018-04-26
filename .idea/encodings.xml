@@ -6,7 +6,9 @@
     <file url="file://$PROJECT_DIR$/titan-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/titan-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/titan-monitor/src/doc/readme.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/titan-monitor/src/test/resources/shutdown.sh" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/titan-monitor/src/test/resources/shutdown.sh" charset="GBK" />
     <file url="file://$PROJECT_DIR$/titan-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/titan-utils" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

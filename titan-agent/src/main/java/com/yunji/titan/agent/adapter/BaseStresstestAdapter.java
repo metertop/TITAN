@@ -37,4 +37,11 @@ public abstract class BaseStresstestAdapter implements Stresstest {
 			String charset) {
 		return null;
 	}
+
+	// haoyx add
+	@Override
+	public OutParamBO runStresstest(String url, String outParam, String param, ContentType contentType,
+									   String charset) {
+		return null;
+	}
 }

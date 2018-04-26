@@ -53,5 +53,6 @@
 		<property name="connectionProperties" value="${connectionProperties}" />
 		<property name="useGlobalDataSourceStat" value="${useGlobalDataSourceStat}" />
 		<property name="timeBetweenLogStatsMillis" value="${timeBetweenLogStatsMillis}" />
+		<property name="validationQuery" value="${jdbc.testSql}" />
 	</bean>   
 </beans>  

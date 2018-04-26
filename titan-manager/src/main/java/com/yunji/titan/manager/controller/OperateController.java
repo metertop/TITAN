@@ -123,6 +123,7 @@ public class OperateController {
 			}
 			TaskIssuedBean taskIssuedBean = new TaskIssuedBean();
 			operateService.copyBeanProperties(ap, taskIssuedBean);
+			logger.info("压测任务是：{}-->", taskIssuedBean);
 			operateResult = taskFacade.startPerformanceTest(taskIssuedBean);
 		}else if(OperateTypeConstant.STOP == operateBO.getOperateType()){
 			operateResult = taskFacade.stopPerformanceTest(operateBO.getSceneId().intValue());

@@ -36,31 +36,32 @@ public interface Stresstest {
 	public Logger log = LoggerFactory.getLogger(Stresstest.class);
 
 	/**
-	 * 执行GET请求类型压测
-	 * 
-	 * @author gaoxianglong
-	 * 
+	 *  调取get/post的适配类
+	 * @author  haoyx
 	 * @param url
-	 *            需要进行压测的URL
-	 * 
 	 * @param outParam
-	 *            上一个接口的出参
-	 * 
 	 * @param param
-	 *            表单参数或者JSON参数
-	 * 
 	 * @param contentType
-	 *            内容类型
-	 * 
 	 * @param charset
-	 *            编码格式
-	 * 
-	 * @exception Exception,IOException
-	 * 
+	 * @return
+	 */
+	public OutParamBO runStresstest(String url, String outParam, String param, ContentType contentType,
+									   String charset);
+
+	/**
+	 * 执行GET请求类型压测
+	 *
+	 * @param url         需要进行压测的URL
+	 * @param outParam    上一个接口的出参
+	 * @param param       表单参数或者JSON参数
+	 * @param contentType 内容类型
+	 * @param charset     编码格式
 	 * @return OutParamBO 压测结果,返回业务code为0时则成功
+//	 * @throws Exception,IOException
+	 * @author gaoxianglong
 	 */
 	public OutParamBO runGetStresstest(String url, String outParam, String param, ContentType contentType,
-			String charset);
+											   String charset) ;
 
 	/**
 	 * 执行POST请求类型压测
@@ -82,7 +83,7 @@ public interface Stresstest {
 	 * @param charset
 	 *            编码格式
 	 * 
-	 * @exception Exception,IOException
+//	 * @exception Exception,IOException   异常信息
 	 * 
 	 * @return OutParamBO 压测结果,返回业务code为0时则成功
 	 */
@@ -110,8 +111,12 @@ public interface Stresstest {
 			outParamBO.setErrorCode(httpCode);
 			try {
 				JSONObject obj = JSONObject.parseObject(EntityUtils.toString(entity, CHAR_SET));
+				log.info("结果压测结果为->{}", obj);
+
 				Object errorCode = obj.get("errorCode");
-				Object data = obj.get("data");
+//				Object data = obj.get("data");
+				// haoyx 接口返回res
+				Object data = obj.get("data") == null ? obj.get("res"):obj.get("data");
 				if (null != errorCode) {
 					outParamBO.setErrorCode(Integer.parseInt(errorCode.toString()));
 				}

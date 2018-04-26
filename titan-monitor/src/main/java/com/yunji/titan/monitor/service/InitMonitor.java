@@ -28,8 +28,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSON;
-import com.yunji.titan.monitor.utils.MsgProvider;
-import com.yunji.titan.monitor.utils.SigarUtil;
+import com.yunji.titan.monitor.utils2.MsgProvider;
+import com.yunji.titan.monitor.utils2.SigarUtil;
 import com.yunji.titan.utils.MonitorBean;
 
 /**
@@ -92,6 +92,7 @@ public class InitMonitor {
 				monitorBean.setCpuUsage(SigarUtil.getCPUUsage());
 				monitorBean.setMemoryUsage(SigarUtil.getMemoryUsage());
 				monitorBean.setIops(MONITOR_MACHINE_IOPS);
+				logger.info("monitor debug:{}",JSON.toJSONString(monitorBean));
 				//2、信息上报
 				msgProvider.sendMsg(JSON.toJSONString(monitorBean));
 			} catch (Exception e) {
@@ -123,7 +124,7 @@ public class InitMonitor {
             Runtime r = Runtime.getRuntime();    
             Process pro = r.exec(command);    
             BufferedReader in = new BufferedReader(new InputStreamReader(pro.getInputStream()));    
-            String line = null;    
+            String line = null;
             int count =  0;    
             while((line=in.readLine()) != null){            
                 if(++count >= 4){    

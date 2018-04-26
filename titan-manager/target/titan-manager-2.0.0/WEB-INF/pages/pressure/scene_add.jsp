@@ -192,7 +192,9 @@
 	</div>
 	
 </div>
-<script> 
+
+
+<script >
 $(function() { 
 	sceneAddPage();
 });
@@ -348,7 +350,7 @@ function sceneAddPage(){
 	}
 	function bindKeydownEvent(){
 		 $("#sceneAddPage input.titan-search-input-s").keydown(function(e){
-			if(e.keyCode==13){
+			if(e.keyCode==13){    // 回车
 				var value = $.trim($(this).val());
 				$.ajax({
 					    url:'${pageContext.request.contextPath}/link/list',

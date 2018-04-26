@@ -134,6 +134,7 @@ public class RegisterAgent implements Watcher {
 								if (downloadResult) {
 									File localFile = new File(
 											System.getProperty("user.home") + "/" + ftpFile.getName());
+									log.info("本地文件为-->{}" , localFile.getAbsolutePath());
 									try (Scanner scan = new Scanner(
 											new BufferedInputStream(new FileInputStream(localFile)), "UTF-8")) {
 										StringBuffer strBuffer = new StringBuffer();

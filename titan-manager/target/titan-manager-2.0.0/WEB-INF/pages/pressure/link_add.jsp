@@ -83,6 +83,7 @@
 		</div>
 	</div>
 </div>
+<script src="${pageContext.request.contextPath}/js/jquery.min.js" />
 <script>
 $(function() { 
 	linkAddPage();
@@ -179,6 +180,7 @@ function linkAddPage(){
 				    success:function(result,textStatus){
 				    	if(result.success){
 				    		$('#linkPageBtn').trigger("click");
+				    		layer.alert("更改成功", {icon: 1});
 				    	}else{
 				    		layer.alert(result.errorCode + ":"+ result.errorMsg, {icon: 5});
 				    	} 

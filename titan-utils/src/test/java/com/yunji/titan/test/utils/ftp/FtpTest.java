@@ -17,9 +17,9 @@ public class FtpTest {
 
 	public @BeforeClass static void testConnFTP() {
 		ftpConnManager = new FtpConnManager();
-		ftpConnManager.setHostname("172.16.0.2");
-		ftpConnManager.setUserName("titan-ftp");
-		ftpConnManager.setPassWord("fj39sl20");
+		ftpConnManager.setHostname("172.16.16.105");
+		ftpConnManager.setUserName("haoyx");
+		ftpConnManager.setPassWord("123456");
 		ftpConnManager.setEncoding("UTF-8");
 		ftpConnManager.setBufferSize(1024);
 		ftpConnManager.setConnectTimeout(2000);
@@ -28,7 +28,7 @@ public class FtpTest {
 
 	public @Test void testUpload() {
 		FtpUtils ftpUtils = new FtpUtils(ftpConnManager);
-		ftpUtils.uploadFile(new File("d:/test.txt"));
+		ftpUtils.uploadFile(new File("d:/titan-monitor.log"));
 	}
 
 	public @Test void testDelete() {

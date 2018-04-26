@@ -62,6 +62,13 @@ public class HttpPostRequestStresstest extends BaseStresstestAdapter {
 	private AbstractExpression paramExpression;
 	private Logger log = LoggerFactory.getLogger(HttpPostRequestStresstest.class);
 
+	// haoyx  add
+	@Override
+	public OutParamBO runStresstest(String url, String outParam, String param, ContentType contentType,
+									String charset) {
+		return runPostStresstest(url, outParam, param, contentType, charset);
+	}
+
 	@Override
 	public OutParamBO runPostStresstest(String url, String outParam, String param, ContentType contentType,
 			String charset) {
@@ -74,12 +81,14 @@ public class HttpPostRequestStresstest extends BaseStresstestAdapter {
 			context.setParams(param);
 			param = paramExpression.get(context);
 			String header = headerExpression.get(context);
+			log.info("post接口请求header->{}, param->{}", header, param);
+
 			/* 将上一个接口的出参作为下一个接口的入参拼接 */
 			if (!StringUtils.isEmpty(outParam) && contentType == ContentType.APPLICATION_JSON) {
 				String value = ParamUtils.jsonCombination(param, outParam);
 				/* JSON合并操作 */
 				param = StringUtils.isEmpty(value) ? param : value;
-				log.debug("JSON合并后的参数-->" + param);
+				log.debug("post请求--JSON合并后的参数-->" + param);
 			}
 			try {
 				CloseableHttpClient httpClient = httpConnectionManager.getHttpClient();
@@ -87,12 +96,16 @@ public class HttpPostRequestStresstest extends BaseStresstestAdapter {
 					HttpPost request = new HttpPost(UrlEncoder.encode(url));
 					/* 组装参数 */
 					setEntity(request, param, charset);
+					log.info("post请求的参数为：{},header是：{}", param,header );
+
 					/* 设置请求头 */
 					ParamUtils.setHeader(request, header, contentType, charset);
 					httpResponse = httpClient.execute(request);
 					entity = httpResponse.getEntity();
+
 					/* 获取压测执行结果 */
 					outParamBO = super.getResult(httpResponse, entity);
+					log.info("post请求返回结果为{}：", outParamBO);
 				}
 			} catch (Exception e) {
 				// ...

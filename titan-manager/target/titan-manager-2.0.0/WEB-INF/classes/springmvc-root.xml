@@ -47,14 +47,19 @@
                      <value>text/plain;charset=UTF-8</value>  
                 </list>  
             </property>  
-           </bean>    
+           </bean>
+
            <bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">    
             <property name="supportedMediaTypes">    
                 <list>    
-                    <value>applicaton/json;charset=UTF-8</value>    
+                    <value>application/json;charset=UTF-8</value>
+                    <value>text/json</value>
+                    <value>text/html; charset=utf-8</value>
                 </list>    
             </property>   
-        </bean> 
+        </bean>
+
+
        </mvc:message-converters>   
    </mvc:annotation-driven>
    
@@ -74,7 +79,10 @@
 	
 	<!-- 对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"	p:prefix="/WEB-INF/pages/" p:suffix=".jsp"/>
-	
-	<!-- 配置定时清除monitor数据job-->
+
+
+
+
+    <!-- 配置定时清除monitor数据job-->
 	<task:annotation-driven />
 </beans>  

@@ -200,8 +200,10 @@ public class RequestHandler {
 								/* 获取压测参数索引 */
 								int paramIdex = getParamIndex(taskBean, url, paramIndex, params.size());
 								inParam = params.get(paramIdex);
+								log.info("请求参数为->{}", inParam);
 							}
 						}
+						log.info("压测类型为->{}", requestTypes.get(url));
 						switch (requestTypes.get(url)) {
 						case GET:
 							stresstest = httpGetRequestStresstest;
@@ -212,7 +214,12 @@ public class RequestHandler {
 						default:
 							break;
 						}
-						outParamBO = stresstest.runGetStresstest(url, outParam, inParam, contentTypes.get(url),
+
+//						outParamBO = stresstest.runGetStresstest(url, outParam, inParam, contentTypes.get(url),
+//								charsets.get(url));
+
+						// haoyx 使用公共的压测方法
+						outParamBO = stresstest.runStresstest(url, outParam, inParam, contentTypes.get(url),
 								charsets.get(url));
 						code = outParamBO.getErrorCode();
 						/* 返回业务码不为${code}则失败 */

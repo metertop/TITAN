@@ -180,6 +180,7 @@ public class TaskServiceImpl implements TaskService {
 		Set<String> znodes = taskMap.keySet();
 		/* 将执行某场景压测的所有agent的znode信息存储到redis,便于后续暂停某个场景时使用 */
 		jedisCluster.sadd(String.valueOf(taskIssuedBean.getSenceId()), znodes.toArray(new String[znodes.size()]));
+		log.info("tasky开始压测了，把场景ID存到的了redis->{}",new String[znodes.size()]);
 	}
 
 	/**
@@ -355,8 +356,11 @@ public class TaskServiceImpl implements TaskService {
 							String agentStateKey = "task";
 							String interruptedKey = "interrupted";
 							/* 忙碌状态才可停止task=true\interrupted=false */
-							if (Boolean.parseBoolean(properties.getProperty(agentStateKey))
-									&& !Boolean.parseBoolean(properties.getProperty(interruptedKey))) {
+//							if (Boolean.parseBoolean(properties.getProperty(agentStateKey))
+//									&& !Boolean.parseBoolean(properties.getProperty(interruptedKey))) {
+
+							// haoyx 只要是忙碌的状态就可以 停止压测
+							if(Boolean.parseBoolean(properties.getProperty(agentStateKey))){
 								ChangeAgentState.change(agentStateContext, new StopState(), zkClient, znode);
 							} else {
 								throw new ResourceException("agent状态不对", ErrorCode.AGENT_TYPE_ERROR);
@@ -365,6 +369,7 @@ public class TaskServiceImpl implements TaskService {
 					} catch (Exception e) {
 						log.error("error", e);
 						throw new StopPerformanceTestException("停止压测失败", ErrorCode.STOP_PERFORMANCE_TEST_FAIL);
+
 					}
 				});
 			} finally {
