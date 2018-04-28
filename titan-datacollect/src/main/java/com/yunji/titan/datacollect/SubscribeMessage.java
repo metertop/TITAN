@@ -78,7 +78,7 @@ public class SubscribeMessage {
 					msgs.stream().forEach(msg -> {
 						final String body = new String(msg.getBody());
 						try {
-//							log.info("id-->" + msg.getMsgId() + "\tbody-->" + body);
+							log.info("test消息：id-->" + msg.getMsgId() + "\tbody-->" + body);
 							ResultBean resultBean = JSONObject.parseObject(body, ResultBean.class);
 							if (null != resultBean) {
 								upload(resultBean.getTaskId(), resultBean);
@@ -112,7 +112,7 @@ public class SubscribeMessage {
 					msgs.stream().forEach(msg -> {
 						final String body = new String(msg.getBody());
 						try {
-							log.info("id-->" + msg.getMsgId() + "\tbody-->" + body);
+//							log.info("id-->" + msg.getMsgId() + "\tbody-->" + body);
 							if (null != body) {
 								MonitorBean monitorBean = JSONObject.parseObject(body, MonitorBean.class);
 								if (null != monitorBean) {

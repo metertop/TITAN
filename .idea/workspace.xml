@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eff48db7-58b7-40f5-a938-04906a958f01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/IPUtils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/titan-utils/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java" afterPath="$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorSetServiceImpl.java" afterPath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorSetServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/EmailSender.java" afterPath="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/EmailSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" afterPath="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/classes/properties/config.properties" afterPath="$PROJECT_DIR$/titan-manager/target/classes/properties/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/titan-manager/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/titan-manager-2.0.0/WEB-INF/pages/pressure/link_add.jsp" afterPath="$PROJECT_DIR$/titan-manager/target/titan-manager-2.0.0/WEB-INF/pages/pressure/link_add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java" afterPath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/SigarUtil.java" afterPath="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/SigarUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/Localhost.java" afterPath="$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/Localhost.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/titan-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-manager/target/titan-manager-2.0.0/WEB-INF/classes/properties/config.properties" afterPath="$PROJECT_DIR$/titan-manager/target/titan-manager-2.0.0/WEB-INF/classes/properties/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/titan-utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/titan-utils/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/titan-manager/target/" />
     <ignored path="$PROJECT_DIR$/titan-utils/target/" />
@@ -53,48 +50,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InitMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="76" column="56" lean-forward="false" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+            <state relative-caret-position="232">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MsgProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/MsgProvider.java">
+      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/EmailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="-48">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1524907507787" expanded="false" signature="4567:4667" ph="getPasswordAuthentication() → {" />
+                <marker date="1524907507787" expanded="false" signature="4854:4860" ph="}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Localhost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/Localhost.java">
+      <file leaf-file-name="EmailSenderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/titan-manager/src/test/java/com/yunji/titan/manager/EmailSenderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/IPUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,39 +100,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>canvas</find>
-      <find>setIn</find>
-      <find>link</find>
-      <find>link_name</find>
-      <find>titan-monitor started...</find>
-      <find>runStresstest</find>
-      <find>\	\	\	\	\	\	outParamBO \= stresstest\.runGetStresstest\(url\, outParam\, inParam\, contentTypes\.get\(url\)\,\n\	\	\	\	\	\	\	\	charsets\.get\(url\)\)\;\n\	\	\	\	\	\	code \= outParamBO\.getErrorCode\(\)\;\n\	\	\	\	\	\	\/\* 返回业务码不为\$\{code\}则失败 \*\/</find>
-      <find>停止压测失败</find>
-      <find>172.16.0.124</find>
-      <find>redis中不包含场景</find>
-      <find>SCENE_TYPE_FAIL</find>
-      <find>GET_TASK_STOCK_FAIL</find>
-      <find>无法获取到任务锁,无法启动压测任务</find>
-      <find>p</find>
-      <find>pullTask</find>
-      <find>poi</find>
-      <find>getParamIndex</find>
-      <find>RegisterAgent</find>
-      <find>RequestHandler</find>
-      <find>获取压测参数</find>
-      <find>请求参数为-&gt;</find>
-      <find>修改</find>
-      <find>成功</find>
-      <find>修改链路</find>
-      <find>id--&gt;</find>
-      <find>monitor debug</find>
       <find>machineFlag</find>
       <find>InetAddress.getLocalHost</find>
       <find>getHostAddress</find>
       <find>场景状态不能满足当前操作</find>
+      <find>GET_TASK_STOCK_FAIL</find>
+      <find>titan-monitor-topic</find>
+      <find>titan-monito-topic</find>
+      <find>titan-monit-topic</find>
+      <find>titan-moni-topic</find>
+      <find>titan-mon-topic</find>
+      <find>titan-mo-topic</find>
+      <find>titan-m-topic</find>
+      <find>titan--topic</find>
+      <find>titan-te-topic</find>
+      <find>titan-tes-topic</find>
+      <find>titan-test-topic</find>
+      <find>upload（</find>
+      <find>upload(task</find>
+      <find>upload(tas</find>
+      <find>upload(ta</find>
+      <find>upload(t</find>
+      <find>upload(</find>
+      <find>upload</find>
+      <find>mailStmpHost</find>
+      <find>MAIL_SMTP_PORT</find>
+      <find>mailSmtpPort</find>
+      <find>MAIL_SMTP_HOST</find>
+      <find>emailSende</find>
+      <find>emailSender</find>
+      <find>email.smtp.port</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
+      <replace>mailStmpHost</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-manager</dir>
@@ -165,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/titan-agent/pom.xml" />
-        <option value="$PROJECT_DIR$/titan-task/pom.xml" />
         <option value="$PROJECT_DIR$/titan-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/resources/assembly.xml" />
@@ -197,7 +181,6 @@
         <option value="$PROJECT_DIR$/titan-datacollect/src/main/resources/dao-context.xml" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/resources/dao-context.xml" />
         <option value="$PROJECT_DIR$/titan-task/src/main/resources/properties/task.properties" />
-        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" />
         <option value="$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OperateController.java" />
         <option value="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar!/org/slf4j/Logger.class" />
@@ -209,13 +192,16 @@
         <option value="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/HttpPostRequestStresstest.java" />
         <option value="$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/Stresstest.java" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/link_add.jsp" />
-        <option value="$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java" />
         <option value="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorSetServiceImpl.java" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/IPUtils.java" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/SigarUtil.java" />
         <option value="$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/Localhost.java" />
         <option value="$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java" />
         <option value="$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/IPUtils.java" />
+        <option value="$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.13.RELEASE/spring-beans-3.2.13.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class" />
+        <option value="$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties" />
+        <option value="$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/EmailSender.java" />
       </list>
     </option>
   </component>
@@ -330,7 +316,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,13 +330,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -362,7 +360,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TITAN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -388,128 +438,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="titan-manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -522,169 +450,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="properties" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -740,117 +510,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TITAN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="titan-agent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -904,33 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FtpTest.testUpload">
-    <configuration default="false" name="MsgProviderTest.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yunji.titan.monitor.utils2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="titan-monitor" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yunji.titan.monitor.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.yunji.titan.monitor.utils.MsgProviderTest" />
-      <option name="METHOD_NAME" value="sendMsg" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmailSenderTest.sendEmailTest">
     <configuration default="false" name="Test1.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1022,6 +656,32 @@
       <option name="PACKAGE_NAME" value="com.yunji.titan.test.utils.ftp" />
       <option name="MAIN_CLASS_NAME" value="com.yunji.titan.test.utils.ftp.FtpTest" />
       <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmailSenderTest.sendEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yunji.titan.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="titan-manager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yunji.titan.manager" />
+      <option name="MAIN_CLASS_NAME" value="com.yunji.titan.manager.EmailSenderTest" />
+      <option name="METHOD_NAME" value="sendEmailTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1603,19 +1263,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.titan-manager" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MsgProviderTest.sendMsg" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Test1.sendMsg" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test2.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test2.test1" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FtpTest.testUpload" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test1.sendMsg" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test2.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test2.test1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FtpTest.testUpload" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.EmailSenderTest.sendEmailTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FtpTest.testUpload" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test2.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Test2.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Test1.sendMsg" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MsgProviderTest.sendMsg" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmailSenderTest.sendEmailTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FtpTest.testUpload" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test2.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test2.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test1.sendMsg" />
       </list>
     </recent_temporary>
   </component>
@@ -1641,44 +1301,44 @@
       <workItem from="1523616634251" duration="36581000" />
       <workItem from="1524052607098" duration="33801000" />
       <workItem from="1524193879254" duration="242000" />
-      <workItem from="1524194338691" duration="126290000" />
+      <workItem from="1524194338691" duration="139415000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 45m 03s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 49m 00s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 49m 59s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 52m 29s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 54m 34s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 16h 54m 42s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 17h 03m 40s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailSenderTest_sendEmailTest - 2018.04.28 at 17h 09m 19s.xml">
+      <configuration name="EmailSenderTest.sendEmailTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FtpTest_testUpload - 2018.04.24 at 17h 21m 01s.xml">
       <configuration name="FtpTest.testUpload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test - 2018.04.23 at 19h 07m 20s.xml">
-      <configuration name="Test2.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test - 2018.04.23 at 19h 09m 51s.xml">
-      <configuration name="Test2.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 17m 28s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 22m 12s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 32m 58s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 34m 47s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 36m 57s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test2_test1 - 2018.04.23 at 19h 57m 56s.xml">
-      <configuration name="Test2.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Test2_test1 - 2018.04.23 at 20h 00m 28s.xml">
       <configuration name="Test2.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329655000" />
+    <option name="totallyTimeSpent" value="342780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1691,6 +1351,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="0" width="1370" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1712,10 +1373,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.031746034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.02292769" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1340388" sideWeight="0.4969651" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892416" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3062787" sideWeight="0.8512397" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20367534" sideWeight="0.8512397" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20864947" sideWeight="0.14876033" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0017361111" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1745,289 +1406,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="221" column="57" lean-forward="false" selection-start-line="221" selection-start-column="57" selection-end-line="221" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/adapter/BaseStresstestAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/HttpGetRequestStresstest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="100" column="40" lean-forward="false" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1767">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/do_pressure_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="418" column="56" lean-forward="false" selection-start-line="418" selection-start-column="56" selection-end-line="418" selection-end-column="65" />
-          <folding>
-            <marker date="1519378015331" expanded="true" signature="4291:4299" ph="&amp;##xe61f;" />
-            <marker date="1519378015331" expanded="true" signature="4380:4386" ph="&amp;nbsp;" />
-            <marker date="1519378015331" expanded="true" signature="4415:4445" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="4447:4455" ph="&amp;##xe60e;" />
-            <marker date="1519378015331" expanded="true" signature="4520:4549" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="4573:4581" ph="&amp;##xe61f;" />
-            <marker date="1519378015331" expanded="true" signature="5041:5049" ph="&amp;##xe623;" />
-            <marker date="1519378015331" expanded="true" signature="5167:5201" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="5440:5474" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="6379:6393" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="6462:6470" ph="&amp;##xe63d;" />
-            <marker date="1519378015331" expanded="true" signature="6470:6476" ph="&amp;nbsp;" />
-            <marker date="1519378015331" expanded="true" signature="6550:6564" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="6633:6641" ph="&amp;##xe63d;" />
-            <marker date="1519378015331" expanded="true" signature="6641:6647" ph="&amp;nbsp;" />
-            <marker date="1519378015331" expanded="true" signature="10771:10784" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="11117:11125" ph="&amp;##xe642;" />
-            <marker date="1519378015331" expanded="true" signature="11222:11230" ph="&amp;##xe640;" />
-            <marker date="1519378015331" expanded="true" signature="11347:11381" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="11623:11657" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/link_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519378015331" expanded="true" signature="2302:2332" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="2878:2912" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="3151:3185" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/do_pressure.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="124" column="22" lean-forward="false" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/scene_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="335" column="119" lean-forward="true" selection-start-line="335" selection-start-column="24" selection-end-line="335" selection-end-column="119" />
-          <folding>
-            <marker date="1524568701526" expanded="true" signature="14047:14055" ph="&amp;##xe640;" />
-            <marker date="1524568701526" expanded="true" signature="15066:15072" ph="&amp;nbsp;" />
-            <marker date="1524568701526" expanded="true" signature="15094:15102" ph="&amp;##xe65b;" />
-            <marker date="1524568701526" expanded="true" signature="15106:15112" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/pressure/link_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="187" column="26" lean-forward="true" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
-          <folding>
-            <marker date="1524742208837" expanded="true" signature="8298:8312" ph="..." />
-            <marker date="1524742208837" expanded="true" signature="8357:8373" ph="..." />
-            <marker date="1524742208837" expanded="true" signature="8375:8383" ph="&amp;##xe705;" />
-            <marker date="1524742208837" expanded="true" signature="8424:8443" ph="..." />
-            <marker date="1524742208837" expanded="true" signature="8619:8638" ph="..." />
-            <marker date="1524742208837" expanded="true" signature="9035:9054" ph="..." />
-            <marker date="1524742208837" expanded="true" signature="9179:9198" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/OperateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="145" column="46" lean-forward="true" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/AutomaticTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3956">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3948">
-          <caret line="295" column="6" lean-forward="true" selection-start-line="295" selection-start-column="6" selection-end-line="295" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/SceneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="281" column="13" lean-forward="true" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/template/StartPerformanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/bean/bo/OutParamBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/Stresstest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/stresstest/HttpPostRequestStresstest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744">
-          <caret line="106" column="45" lean-forward="false" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/ResultStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-agent/src/main/java/com/yunji/titan/agent/utils/ParamUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/overview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524622931675" expanded="true" signature="5516:5522" ph="&amp;nbsp;" />
-            <marker date="1524622931675" expanded="true" signature="5535:5567" ph="..." />
-            <marker date="1524622931675" expanded="true" signature="5595:5601" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/report/report_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="132" column="22" lean-forward="true" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/monitor/monitor_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519378015331" expanded="true" signature="3078:3108" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="3352:3365" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="3423:3436" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="3662:3696" ph="..." />
-            <marker date="1519378015331" expanded="true" signature="3935:3969" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/job/MonitorTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/entity/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/dao/MonitorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="113" column="31" lean-forward="true" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-          <folding>
-            <marker date="1519378015269" expanded="true" signature="1373:1750" ph="(SELECT * FR... " />
-            <marker date="1519378015269" expanded="true" signature="1374:1545" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="1578:1749" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="2080:2163" ph="INSERT INTO t_monitor... " />
-            <marker date="1519378015269" expanded="true" signature="2561:2696" ph="SELECT ip FR... *" />
-            <marker date="1519378015269" expanded="true" signature="2576:2647" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="2962:3032" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="3597:3693" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="4273:4466" ph="SELECT * FRO... t_monitor" />
-            <marker date="1519378015269" expanded="true" signature="4783:4846" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -2079,57 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/MonitorSetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="220" column="82" lean-forward="false" selection-start-line="220" selection-start-column="82" selection-end-line="220" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/service/MonitorSetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/entity/MonitorSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#1507#1508#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/service/MonitorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorSetServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="154" column="65" lean-forward="false" selection-start-line="154" selection-start-column="65" selection-end-line="154" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/InetAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -2145,22 +1472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="59" column="80" lean-forward="false" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="76" column="56" lean-forward="false" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -2189,34 +1500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/SigarUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="102" column="35" lean-forward="false" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/NumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/MsgProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/Localhost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -2229,10 +1512,361 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/IPUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="46" />
+        <state relative-caret-position="135">
+          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-task/src/main/java/com/yunji/titan/task/service/assign/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1708">
+          <caret line="146" column="60" lean-forward="true" selection-start-line="146" selection-start-column="60" selection-end-line="146" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/dao/MonitorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="131" column="25" lean-forward="false" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+          <folding>
+            <marker date="1519378015269" expanded="true" signature="1373:1750" ph="(SELECT * FR... " />
+            <marker date="1519378015269" expanded="true" signature="1374:1545" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="1578:1749" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="2080:2163" ph="INSERT INTO t_monitor... " />
+            <marker date="1519378015269" expanded="true" signature="2561:2696" ph="SELECT ip FR... *" />
+            <marker date="1519378015269" expanded="true" signature="2576:2647" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="2962:3032" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="3597:3693" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="4273:4466" ph="SELECT * FRO... t_monitor" />
+            <marker date="1519378015269" expanded="true" signature="4783:4846" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="105" column="35" lean-forward="true" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/service/MonitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/entity/MonitorSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#1507#1508#0" expanded="false" />
+            <element signature="e#1531#1532#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/entity/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="e#1462#1463#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/service/MonitorSetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/MonitorSetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="220" column="84" lean-forward="false" selection-start-line="220" selection-start-column="84" selection-end-line="220" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/MsgProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/NumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/utils2/SigarUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="102" column="35" lean-forward="false" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/webapp/WEB-INF/pages/report/report_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1463">
+          <caret line="91" column="33" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/MonitorSetServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="145" column="37" lean-forward="false" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-monitor/src/main/java/com/yunji/titan/monitor/service/InitMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="114" column="6" lean-forward="true" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/properties/datacollect.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/MasterElection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-794">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-utils/src/main/java/com/yunji/titan/utils/config/RocketMqDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-661">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/resources/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/SubscribeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/utils/ResultStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-datacollect/src/main/java/com/yunji/titan/datacollect/UploadData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/dao/ReportDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+          <folding>
+            <marker date="1519378015284" expanded="true" signature="1455:1484" ph="SELECT count... t_report" />
+            <marker date="1519378015284" expanded="true" signature="1752:1806" ph="SELECT count... t_report" />
+            <marker date="1519378015284" expanded="true" signature="2249:2307" ph="SELECT * FRO... t_report" />
+            <marker date="1519378015284" expanded="true" signature="2777:2860" ph="SELECT * FRO... t_report" />
+            <marker date="1519378015284" expanded="true" signature="3199:3257" ph="SELECT * FRO... t_report" />
+            <marker date="1519378015284" expanded="true" signature="3528:3581" ph="DELETE FROM " />
+            <marker date="1519378015284" expanded="true" signature="3832:4089" ph="INSERT INTO t_report... " />
+            <marker date="1519378015284" expanded="true" signature="4709:4751" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/impl/service/ReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/service/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="68" column="15" lean-forward="false" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.13.RELEASE/spring-beans-3.2.13.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/dubbo-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#4436#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/test/java/com/yunji/titan/manager/test/BaseJunit4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/springmvc-root.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/ftp-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/zk-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/test/java/com/yunji/titan/manager/EmailSenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/resources/properties/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/titan-manager/src/main/java/com/yunji/titan/manager/utils/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1524907507787" expanded="false" signature="4567:4667" ph="getPasswordAuthentication() → {" />
+            <marker date="1524907507787" expanded="false" signature="4854:4860" ph="}" />
           </folding>
         </state>
       </provider>

@@ -34,6 +34,8 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -45,7 +47,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class EmailSender {
-
+	private static Logger logger = LoggerFactory.getLogger(EmailSender.class);
 	/**
 	 * 发送者账号
 	 */
@@ -57,7 +59,10 @@ public class EmailSender {
 	/**
 	 * host
 	 */
-	private final static String MAIL_SMTP_HOST = "smtp.sina.com";
+	@Value("${email.smtp.host}")
+	private String mailStmpHost ;       //走配置文件了
+//	private final static String MAIL_SMTP_HOST;
+
 	/**
 	 * port
 	 */
@@ -142,11 +147,12 @@ public class EmailSender {
 	 * @throws MessagingException
 	 */
 	private MimeMessage initialMessage() throws MessagingException{
+
 		// 配置发送邮件的环境属性
 		final Properties props = new Properties();
 		// 表示SMTP发送邮件，需要进行身份验证
 		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.host", MAIL_SMTP_HOST);
+		props.put("mail.smtp.host", mailStmpHost);
 		props.put("mail.smtp.port", MAIL_SMTP_PORT);
 		// 发件人的账号
 		props.put("mail.user", emailSenderName);
