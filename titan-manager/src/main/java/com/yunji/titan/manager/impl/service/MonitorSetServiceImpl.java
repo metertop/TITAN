@@ -23,6 +23,7 @@ import java.util.Map;
 
 import javax.annotation.Resource;
 
+import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
@@ -132,22 +133,25 @@ public class MonitorSetServiceImpl implements MonitorSetService{
 	public int update(MonitorSetBO monitorSetBO) throws Exception {
 		return monitorSetDao.update(monitorSetBO);
 	}
+
+
+
 	/**
-	 * @desc 压测报告详情页 图表数据
 	 *
-	 * @author liuliang
-	 *
-	 * @param request
-	 * @param sceneId 场景ID
+	 * @param reportBO
 	 * @return
+	 * @throws Exception
 	 */
 	@Override
 	public Map<String,List<Monitor>> getReportDetailMonitorData(ReportBO reportBO) throws Exception {
 		Map<String,List<Monitor>> returnMap = new HashMap<String,List<Monitor>>(16);
 		//1、查监控集
 		MonitorSet monitorSet = monitorSetDao.query(reportBO.getSceneId());
+		logger.info("监控集-->{}", JSON.toJSONString(monitorSet));
+
 		if(null != monitorSet) {
 			String ips = monitorSet.getIntranetIp();
+			logger.info("监控的ips->{}", ips);
 			List<Monitor> tempList = monitorService.getReportDetailMonitorData(ips,reportBO.getStartTime(),reportBO.getEndTime());
 			
 			if((null != tempList) && (0 < tempList.size())) {

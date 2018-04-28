@@ -31,11 +31,17 @@ public class Localhost {
 
 	public static String getHostAddress() {
 		String address = "未知IP";
+
+		// 使用getHostAddress 获取总是获取为127.0.0.1
+		/*
 		try {
 			address = InetAddress.getLocalHost().getHostAddress();
 		} catch (UnknownHostException e) {
 			log.error("无法获取到本机IP地址", e);
 		}
+		*/
+
+		address = IPUtils.getFirstHostAddress();
 		return address;
 	}
 }

@@ -81,6 +81,7 @@ public class InitMonitor {
 		    	doIostat();
 		    }
 		}.start();
+		String localAddress = SigarUtil.getHostAddress();
 		while(true) {
 			//1、获取组装信息
 			MonitorBean monitorBean = new MonitorBean();
@@ -88,11 +89,12 @@ public class InitMonitor {
 			try {
 				monitorBean.setCreateTime(localTime);
 				monitorBean.setServerType(machineFlag);
-				monitorBean.setIp(SigarUtil.getHostAddress());
+				monitorBean.setIp(localAddress);
 				monitorBean.setCpuUsage(SigarUtil.getCPUUsage());
 				monitorBean.setMemoryUsage(SigarUtil.getMemoryUsage());
 				monitorBean.setIops(MONITOR_MACHINE_IOPS);
-				logger.info("monitor debug:{}",JSON.toJSONString(monitorBean));
+
+//				logger.info("monitor debug:{}",JSON.toJSONString(monitorBean));
 				//2、信息上报
 				msgProvider.sendMsg(JSON.toJSONString(monitorBean));
 			} catch (Exception e) {

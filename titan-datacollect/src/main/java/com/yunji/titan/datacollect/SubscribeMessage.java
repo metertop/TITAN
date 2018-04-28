@@ -78,7 +78,7 @@ public class SubscribeMessage {
 					msgs.stream().forEach(msg -> {
 						final String body = new String(msg.getBody());
 						try {
-							log.info("id-->" + msg.getMsgId() + "\tbody-->" + body);
+//							log.info("id-->" + msg.getMsgId() + "\tbody-->" + body);
 							ResultBean resultBean = JSONObject.parseObject(body, ResultBean.class);
 							if (null != resultBean) {
 								upload(resultBean.getTaskId(), resultBean);

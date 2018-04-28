@@ -180,7 +180,9 @@ function linkAddPage(){
 				    success:function(result,textStatus){
 				    	if(result.success){
 				    		$('#linkPageBtn').trigger("click");
-				    		layer.alert("更改成功", {icon: 1});
+				    		layer.alert("保存成功", {icon: 1});
+                            window.location.href="${pageContext.request.contextPath}/pages/pressure/link_list";//需要跳转的地址
+                            <%--$('#mainContent').empty().load('${pageContext.request.contextPath}/pages/pressure/link_list');--%>
 				    	}else{
 				    		layer.alert(result.errorCode + ":"+ result.errorMsg, {icon: 5});
 				    	} 

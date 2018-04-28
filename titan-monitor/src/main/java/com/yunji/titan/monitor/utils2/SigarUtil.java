@@ -23,6 +23,7 @@ import org.hyperic.sigar.CpuPerc;
 import org.hyperic.sigar.Mem;
 import org.hyperic.sigar.Sigar;
 import org.hyperic.sigar.SigarException;
+import com.yunji.titan.utils.IPUtils;
 
 /**
  * @desc Sigar获取系统信息工具类
@@ -89,6 +90,8 @@ public class SigarUtil {
 	 * @return String
 	 */
 	public static String getHostAddress() {
+		// 使用getHOstAddress 获取总是 127.0.0.1   haoyx
+		/*
 		InetAddress inetAddress = null;
 		try {
 			inetAddress = InetAddress.getLocalHost();
@@ -96,5 +99,9 @@ public class SigarUtil {
 			e.printStackTrace();
 		}  
 		return inetAddress.getHostAddress();
+		*/
+		return IPUtils.getFirstHostAddress();
 	}
+
+
 }
