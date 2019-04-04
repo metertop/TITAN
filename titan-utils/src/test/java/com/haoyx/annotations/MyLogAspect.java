@@ -12,9 +12,9 @@ import java.lang.reflect.Method;
  */
 @Aspect //AOP 切面
 @Component
-public class MyLogExample {
+public class MyLogAspect {
     //切入点
-    @Pointcut(value="@annotation(com.haoyx.annotations.MyLog)")
+    @Pointcut("@annotation(com.haoyx.annotations.MyLog)")
     private void pointcut() {
 
     }
@@ -27,19 +27,19 @@ public class MyLogExample {
      * @param myLog
      * @return
      */
-    @Around(value = "pointcut() && @annotation(myLog)")
-    public Object around(ProceedingJoinPoint point, MyLog myLog) {
+    @Around("pointcut()")
+    public Object around(ProceedingJoinPoint point) {
 
         System.out.println("++++执行了around方法++++");
 
-        String requestUrl = myLog.requestUrl();
+//        String requestUrl = myLog.requestUrl();
 
         //拦截的类名
         Class clazz = point.getTarget().getClass();
         //拦截的方法
         Method method = ((MethodSignature) point.getSignature()).getMethod();
 
-        System.out.println("执行了 类:" + clazz + " 方法:" + method + " 自定义请求地址:" + requestUrl);
+//        System.out.println("执行了 类:" + clazz + " 方法:" + method + " 自定义请求地址:" + requestUrl);
 
         try {
             return point.proceed(); //执行程序
@@ -77,9 +77,10 @@ public class MyLogExample {
      * @param myLog
      * @param ex
      */
+
     @AfterThrowing(value = "pointcut() && @annotation(myLog)", throwing = "ex")
     public void afterThrowing(JoinPoint joinPoint, MyLog myLog, Exception ex) {
         System.out.println("++++执行了afterThrowing方法++++");
-        System.out.println("请求：" + myLog.requestUrl() + " 出现异常");
+        System.out.println("请求：" + myLog.value() + " 出现异常");
     }
 }

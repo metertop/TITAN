@@ -13,8 +13,8 @@ import java.util.List;
  */
 public class ZooKeeperTest1 {
     public static void main(String[] args) {
-//        String znode = "/dubbo/com.talk51.modules.asset.IAddUserLeaveService/providers";
-        String znode = "/dubbo";
+        String znode = "/dubbo/com.talk51.modules.asset.IAddUserLeaveService/providers";
+//        String znode = "/dubbo";
         try {
 
             ZooKeeper zkClient =  new ZooKeeper("172.16.16.36:2181",3000, null);

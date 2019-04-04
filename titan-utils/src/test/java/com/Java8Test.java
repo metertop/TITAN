@@ -32,7 +32,10 @@ public class Java8Test {
         List<Apple> reds=apples.stream().filter(apple -> apple.getColor().equals("red")).collect(Collectors.toList());
         System.out.println(reds);
 
-
+        //映射,将流中的每个元素变成映射成另一个元素，注意，所有流操作都是在一个新的流中处理，原始流中的数据都不会改变
+        List<String> colors=apples.stream().map(apple -> apple.getColor()).distinct().collect(Collectors.toList());//从apple中提取颜色
+        System.out.println(colors);
+/*
         //distinct 去重(根据对象的equals和hashcode方法比较两个对象是否是同一个对象)
         List<Apple> distincts=apples.stream().distinct().collect(Collectors.toList());
         System.out.println("distincts" + distincts);
@@ -58,13 +61,13 @@ public class Java8Test {
         System.out.println(apples.stream().allMatch(apple -> apple.getWeight()==2));
 
         //noneMatch是否所有元素都不满足条件
-        System.out.println(apples.stream().noneMatch(apple -> apple.getWeight()==2));
+        System.out.println(apples.stream().noneMatch(apple -> apple.getWeight()==10));
 
         //findAny从流中查找任意一个元素，通常结合filter一起用
         System.out.println(apples.stream().findAny().get());
 
         //findFirst从流中查找第一个元素，通常结合filter一起用
-        System.out.println(apples.stream().filter(apple -> apple.getWeight()>1).findFirst().get());
+        System.out.println(apples.stream().filter(apple -> apple.getWeight()>6).findFirst().get());
 
         //count统计流中的元素个数
         System.out.println("count:"+apples.stream().count());
@@ -87,13 +90,17 @@ public class Java8Test {
 
         //Interge中提供了静态的sum和max方法，代码可以进一步简化
         System.out.println("reduce sum:"+numbers.stream().reduce(0,Integer::sum));
+*/
 
-        /*
-        基本类型数组流.上面代码计算总和的方式包含了一个自动的从int转成Integer的操作，Java 8引入了三个原始类型特化流接口来解决这个问题：IntStream、 DoubleStream 和
+     /*
+      基本类型数组流.上面代码计算总和的方式包含了一个自动的从int转成Integer的操作，Java 8引入了三个原始类型特化流接口来解决这个问题：IntStream、 DoubleStream 和
+
         LongStream，分别将流中的元素特化为 int 、 long 和 double ，从而避免了暗含的装箱成本。
         将流转换为特化版本的常用方法是 mapToInt 、 mapToDouble 和 mapToLong 。这些方法和前
         面说的 map 方法的工作方式一样，只是它们返回的是一个特定类型的流，而不是 Stream<T>,此外它们多了一些直接的运算方法，如sum()
+
         */
+
 
         System.out.println("mapToInt sum:"+apples.stream().mapToInt(Apple::getWeight).sum());
 
@@ -106,13 +113,13 @@ public class Java8Test {
 
 
         int[] intArray = {12,3,34,67,100,99};
-        /** 第一种构造intStream **/
+//        * 第一种构造intStream *
         IntStream intStream = IntStream.of(intArray);
-        /** 第二种构造intStream **/
+//        * 第二种构造intStream *
 //        IntStream intStream2 = IntStream.of(12,3,34,67,100,99);
-        /** 这个是重点，获得当前int数组的统计信息，包括 **/
+//        * 这个是重点，获得当前int数组的统计信息，包括 *
         IntSummaryStatistics statistics = intStream.summaryStatistics();
-        /** 计算出最大，最小，平均等等，是不是很好用，赶紧get起来 **/
+//        * 计算出最大，最小，平均等等，是不是很好用，赶紧get起来 *
         System.out.println("the max:" + statistics.getMax());
         System.out.println("the min:" + statistics.getMin());
         System.out.println("the average:" + statistics.getAverage());

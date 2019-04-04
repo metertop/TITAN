@@ -18,7 +18,9 @@ package com.yunji.titan.manager.controller;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.annotation.Resource;
 
@@ -235,10 +237,20 @@ public class ReportController {
 			httpSuccessRate = Double.parseDouble(df.format(report.getSuccessRequest() / (double)report.getTotalRequest() * 100.00));
 			peakThroughput = (long) Math.ceil((report.getTotalRequest() * 0.8)/(durationTimeTemp * 0.2));
 			peakDurationTime = TitanDateUtil.getDescBySecond((long)(durationTimeTemp * 0.2));
-			
+			String contextpath = System.getProperty("titan_root");   //在web.xml中配置
+			String filePath = contextpath + getConclusionDesc(report.getConclusion());
+
+
+			logger.info("测试结果图片是：" + filePath);
+
 			sb.append("<div style='width: 880px;min-height: 360px;border: 1px solid #EDEDED;margin-bottom: 5px;position: relative;'>");
 			sb.append("<img style='left:700px; top:10px;position: absolute;' width='135px;' height='95px;' src='" + this.getConclusionDesc(report.getConclusion()) + "'/>");
 			sb.append("<h3 style='margin-left: 10px;'>" + report.getReportName() + "</h3>");
+			/* 合格 不合格图片*/
+			sb.append("	<div style='position:absolute;height:105px;width:80px;right:90px;top:-40px;text-align:center;line-height: 80px;'' class='titan-div-seal'> ");
+			sb.append("    		<img style='height:105px;' ondragstart='return false;' src='" + filePath +"' />");
+			sb.append(" </div> ");
+
 			sb.append("<table border='1px' bordercolor='#C6C5C6' style='border-collapse:collapse;width: 860px;margin-left: 10px;text-align: center;'>");
 			sb.append("<thead>");
 			sb.append("		<tr style='background-color: #F1F1F1;height: 40px;'>");

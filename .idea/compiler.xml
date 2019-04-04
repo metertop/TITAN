@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,5 +23,15 @@
       <module name="titan-task" target="1.8" />
       <module name="titan-utils" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="titan-agent" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-agent/lib" />
+      <module name="titan-datacollect" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-datacollect/lib" />
+      <module name="titan-manager" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-manager/lib" />
+      <module name="titan-monitor" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-monitor/lib" />
+      <module name="titan-task" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-task/lib" />
+      <module name="titan-utils" options="-verbose -bootclasspath &quot;C:\Program Files\Java\jdk1.8.0_121/jre/lib/rt.jar&quot; -extdirs D:\51talk_hyx\51talk-project\java_project\TITAN\TITAN\titan-utils/lib" />
+    </option>
   </component>
 </project>

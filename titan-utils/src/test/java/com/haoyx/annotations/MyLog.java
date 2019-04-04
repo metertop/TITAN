@@ -12,6 +12,6 @@ import java.lang.annotation.*;
 @Inherited
 public @interface MyLog {
 
-    String requestUrl();
+    String value() default "";
 
 }

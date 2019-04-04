@@ -7,10 +7,12 @@
     <file url="file://$PROJECT_DIR$/titan-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/titan-monitor/src/doc/readme.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/titan-monitor/src/main/resources/shutdown.sh" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/titan-monitor/src/test/resources/shutdown.sh" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/titan-monitor/src/test/resources/shutdown.sh" charset="GBK" />
     <file url="file://$PROJECT_DIR$/titan-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/titan-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/com/haoyx/FileUtil/AbstractImageCreator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/com/haoyx/FileUtil/ChartGraphics.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/com/haoyx/FileUtil/SimpleDrawer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/titan-utils/src/test/java/com/com/haoyx/com/haoyx/FileUtil/Test.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

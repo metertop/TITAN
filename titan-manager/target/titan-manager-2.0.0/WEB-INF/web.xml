@@ -27,7 +27,18 @@
 		<param-value>
 		classpath:*-context.xml
 		</param-value>
-	</context-param> 
+	</context-param>
+
+	<!--增加了获取项目路径的方法 haoyx-->
+	<context-param>
+		<param-name>webAppRootKey</param-name>
+		<param-value>titan_root</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>org.springframework.web.util.WebAppRootListener</listener-class>
+	</listener>
+
 	
 	<!-- 字符集过滤器 -->
 	<filter>
@@ -74,5 +85,7 @@
 	<error-page>
 	    <error-code>404</error-code>
 	    <location>/error/404.html</location>
-	</error-page> 
+	</error-page>
+
+
 </web-app>
